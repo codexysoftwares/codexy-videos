@@ -147,6 +147,24 @@ frase por vez, a entonação muda de um trecho para outro e fica estranho.
 
 ---
 
+### Narração e música com ElevenLabs (melhor qualidade)
+
+Temos plano pago no ElevenLabs (vozes brasileiras + licença comercial). Peça a chave de API
+para o Kaike e coloque num arquivo `.env` na raiz do projeto (ele nunca vai para o Git):
+
+```
+ELEVENLABS_API_KEY=...
+```
+
+- **Narração:** no `roteiro.json` do vídeo, o bloco `elevenlabs` define a voz (usamos a
+  **Elena Vinter**). Rode `npm run tts -- <video>` e depois `npm run narracao -- <video>`.
+- **Música sob medida:** descreva as seções da trilha (intro, build-up, drop, final) com a
+  duração de cada uma em `public/music/<nome>.plan.json` e rode `npm run musica -- <nome>`.
+  A música nem sempre respeita os tempos exatos — o Claude Code analisa as batidas e encaixa
+  o vídeo nelas.
+
+---
+
 ## 6. Regras da marca (o Claude já segue, mas vale saber)
 
 - **Cores:** azul-marinho `#00143D` e azul elétrico `#0055FF`.

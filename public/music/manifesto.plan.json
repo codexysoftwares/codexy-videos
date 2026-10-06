@@ -1,0 +1,48 @@
+{
+  "positive_global_styles": [
+    "cinematic",
+    "modern tech brand film",
+    "premium",
+    "instrumental",
+    "electronic orchestral hybrid",
+    "120 bpm"
+  ],
+  "negative_global_styles": ["vocals", "lyrics", "choir", "cheesy", "lo-fi", "comedic"],
+  "sections": [
+    {
+      "section_name": "Intro",
+      "positive_local_styles": ["ambient cinematic pads", "soft sub pulse", "mysterious", "minimal", "sparse delicate plucks"],
+      "negative_local_styles": ["drums", "loud"],
+      "duration_ms": 3900,
+      "lines": []
+    },
+    {
+      "section_name": "Build",
+      "positive_local_styles": ["rising tension", "accelerating pulse", "filtered synth arpeggio building", "big riser into a drop"],
+      "negative_local_styles": ["full drums"],
+      "duration_ms": 4900,
+      "lines": []
+    },
+    {
+      "section_name": "Drop",
+      "positive_local_styles": ["powerful cinematic electronic drop", "deep punchy kick", "driving bass", "modern tech trailer energy", "wide stereo synths"],
+      "negative_local_styles": ["quiet"],
+      "duration_ms": 8000,
+      "lines": []
+    },
+    {
+      "section_name": "Pulse",
+      "positive_local_styles": ["rhythmic staccato hits", "confident", "tight groove", "slightly lighter but energetic"],
+      "negative_local_styles": [],
+      "duration_ms": 5200,
+      "lines": []
+    },
+    {
+      "section_name": "Outro",
+      "positive_local_styles": ["resolving", "wide open warm chord", "shimmering pads", "elegant and triumphant", "long reverb tail fading out"],
+      "negative_local_styles": ["drums"],
+      "duration_ms": 8000,
+      "lines": []
+    }
+  ]
+}

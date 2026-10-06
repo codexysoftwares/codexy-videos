@@ -31,7 +31,9 @@ Variações usam sufixo no id: `como-trabalhamos-narrado`.
 |---|---|
 | `npm run dev` | Abre o Remotion Studio (prévia em tempo real) |
 | `npm run roteiro -- <video>` | Mostra o estilo e o texto para colar no gerador de voz |
+| `npm run tts -- <video>` | Gera a narração inteira no ElevenLabs a partir do `roteiro.json` (precisa de `ELEVENLABS_API_KEY` no `.env`) |
 | `npm run narracao -- <video>` | Corta `original/completo.wav` nas pausas, gerando um arquivo por fala |
+| `npm run musica -- <nome>` | Compõe uma trilha no Eleven Music a partir de `public/music/<nome>.plan.json` |
 | `npm run render -- <id>` | Renderiza em `out/<video>/<id>.mp4` |
 
 ## Fluxo de um vídeo com narração

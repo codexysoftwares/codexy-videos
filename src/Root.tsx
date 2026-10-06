@@ -9,6 +9,8 @@ import { GuaranteesScene } from "./videos/como-trabalhamos/GuaranteesScene";
 import { ObjectionScene } from "./videos/como-trabalhamos/ObjectionScene";
 import { ProcessScene } from "./videos/como-trabalhamos/ProcessScene";
 import { ChatbotScene } from "./videos/dor-solucao/ChatbotScene";
+import { Manifesto } from "./videos/manifesto/Manifesto";
+import { DURATION } from "./videos/manifesto/timeline";
 import { DorSolucao } from "./videos/dor-solucao/DorSolucao";
 import { HookScene } from "./videos/dor-solucao/HookScene";
 import { PainScene } from "./videos/dor-solucao/PainScene";
@@ -21,6 +23,10 @@ import { TurnScene } from "./videos/dor-solucao/TurnScene";
 export const RemotionRoot: React.FC = () => {
   return (
     <>
+      <Folder name="manifesto">
+        <Composition id="manifesto" component={Manifesto} durationInFrames={DURATION} fps={30} width={1080} height={1920} />
+      </Folder>
+
       <Folder name="dor-solucao">
         <Composition id="dor-solucao" component={DorSolucao} durationInFrames={770} fps={30} width={1080} height={1920} />
         <Folder name="dor-solucao-cenas">

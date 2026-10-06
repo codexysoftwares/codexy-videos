@@ -1,0 +1,20 @@
+{
+  "voz": "ElevenLabs · Elena Vinter (S4M4JhZIzYGUlDsYIOow) · eleven_multilingual_v2",
+  "estilo": "Gerado via API pelo npm run tts; as pausas entre falas são inseridas automaticamente.",
+  "elevenlabs": {
+    "voice_id": "S4M4JhZIzYGUlDsYIOow",
+    "model_id": "eleven_multilingual_v2",
+    "voice_settings": { "stability": 0.55, "similarity_boost": 0.75, "style": 0.25, "use_speaker_boost": true },
+    "pausa_entre_falas": 1.2
+  },
+  "falas": [
+    { "arquivo": "01-jeito-unico.wav", "texto": "Toda empresa tem um jeito único de funcionar." },
+    { "arquivo": "02-molde.wav", "texto": "Mas a maioria dos sistemas obriga você a mudar o seu." },
+    { "arquivo": "03-contrario.wav", "texto": "A gente faz o contrário." },
+    { "arquivo": "04-entende.wav", "texto": "Primeiro, entende como você trabalha." },
+    { "arquivo": "05-constroi.wav", "texto": "Depois, constrói exatamente isso." },
+    { "arquivo": "06-servicos.wav", "texto": "Sistemas. Sites. Chatbots." },
+    { "arquivo": "07-seu-jeito.wav", "texto": "Feitos do seu jeito." },
+    { "arquivo": "08-assinatura.wav", "texto": "Codexy. Software sob medida." }
+  ]
+}
