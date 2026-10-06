@@ -1,12 +1,15 @@
 {
-  "name": "codexy-promo",
+  "name": "codexy-videos",
   "version": "1.0.0",
-  "description": "My Remotion video",
+  "description": "Vídeos de marketing da Codexy (Remotion)",
   "repository": {},
   "license": "UNLICENSED",
   "private": true,
   "dependencies": {
     "@remotion/cli": "4.0.533",
+    "@remotion/google-fonts": "4.0.533",
+    "@remotion/media": "4.0.533",
+    "@remotion/transitions": "4.0.533",
     "react": "19.2.3",
     "react-dom": "19.2.3",
     "remotion": "4.0.533"
@@ -23,6 +26,10 @@
     "dev": "remotion studio",
     "build": "remotion bundle",
     "upgrade": "remotion upgrade",
-    "lint": "eslint src && tsc"
+    "lint": "eslint src && tsc",
+    "roteiro": "node scripts/roteiro.mjs",
+    "narracao": "node scripts/split-narration.mjs",
+    "render": "node scripts/render.mjs",
+    "sfx": "node scripts/synth-sfx.mjs"
   }
 }

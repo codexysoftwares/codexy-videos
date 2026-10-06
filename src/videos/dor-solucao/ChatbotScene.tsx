@@ -6,12 +6,12 @@ import {
   useCurrentFrame,
   useVideoConfig,
 } from "remotion";
-import { Panel, PillarLayout } from "../components/PillarLayout";
-import { C, EASE, MONO, SFX, clamp } from "../theme";
+import { Panel, PillarLayout } from "./PillarLayout";
+import { C, EASE, MONO, SFX, clamp } from "../../shared/theme";
 
 const MESSAGES = [
   { from: "user", text: "Oi! Vocês atendem amanhã?", at: 16 },
-  { from: "bot", text: "Olá! Atendemos sim 🙂 Tenho horário às 9h ou às 14h.", at: 36, typing: 26 },
+  { from: "bot", text: "Olá! Atendemos sim. Tenho horário às 9h ou às 14h.", at: 36, typing: 26 },
   { from: "user", text: "9h, por favor!", at: 52 },
   { from: "bot", text: "Pronto! Agendado para amanhã às 9h. ✓", at: 72, typing: 60 },
 ] as const;
@@ -55,10 +55,7 @@ const Chat: React.FC = () => {
     <Panel style={{ display: "flex", flexDirection: "column" }}>
       {MESSAGES.map((m) => (
         <Sequence key={m.at} from={m.at} durationInFrames={30} premountFor={fps}>
-          <Audio
-            src={staticFile(m.at === 72 ? SFX.ding : SFX.pop)}
-            volume={m.at === 72 ? 0.45 : 0.3}
-          />
+          <Audio src={staticFile(SFX.pop)} volume={0.3} />
         </Sequence>
       ))}
 

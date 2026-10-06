@@ -1,6 +1,6 @@
 import { AbsoluteFill, interpolate, useCurrentFrame } from "remotion";
-import { Background } from "../components/Background";
-import { C, EASE, MONO, SANS, clamp } from "../theme";
+import { Background } from "../../shared/components/Background";
+import { C, EASE, MONO, SANS, clamp } from "../../shared/theme";
 
 const LINES = [
   { text: "E se tudo isso", at: 4 },

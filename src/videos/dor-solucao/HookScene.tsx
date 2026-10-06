@@ -7,8 +7,8 @@ import {
   useCurrentFrame,
   useVideoConfig,
 } from "remotion";
-import { Background } from "../components/Background";
-import { C, EASE, MONO, SANS, SFX, clamp } from "../theme";
+import { Background } from "../../shared/components/Background";
+import { C, EASE, MONO, SANS, SFX, clamp } from "../../shared/theme";
 
 const NOTIFS = [
   { app: "WHATSAPP", text: "47 mensagens não lidas", color: "#25D366", x: 80, y: 200, rot: -4, at: 0 },

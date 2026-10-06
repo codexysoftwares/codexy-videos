@@ -1,0 +1,13 @@
+{
+  "voz": "Gemini 2.5 Flash TTS (Google AI Studio)",
+  "estilo": "Leia em português do Brasil, com tom confiante, calmo e próximo, como um locutor de vídeo institucional premium. Ritmo moderado, sem exagero. Faça uma pausa de cerca de 1 segundo e meio entre cada parágrafo.",
+  "falas": [
+    { "arquivo": "01-objecao.wav", "texto": "Software sob medida tem fama de ser demorado... arriscado... e sem suporte. Com a gente, não." },
+    { "arquivo": "02-diagnostico.wav", "texto": "Primeiro, a gente entende o seu processo e encontra os gargalos." },
+    { "arquivo": "03-prototipo.wav", "texto": "Depois, você vê e aprova as telas antes de qualquer código." },
+    { "arquivo": "04-desenvolvimento.wav", "texto": "No desenvolvimento, entregas semanais. Você acompanha cada avanço." },
+    { "arquivo": "05-entrega.wav", "texto": "E, na entrega, treinamento, ajustes e suporte contínuo." },
+    { "arquivo": "06-garantias.wav", "texto": "Prazo ágil, garantia e suporte. Sem surpresa. Sem caixa-preta." },
+    { "arquivo": "07-cta.wav", "texto": "Codexy. Vamos desenhar o seu projeto?" }
+  ]
+}

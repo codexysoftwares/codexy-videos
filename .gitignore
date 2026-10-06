@@ -5,3 +5,6 @@ dist
 
 # Ignore the output video from Git but not videos you import into src/.
 out
+
+# Takes antigos de narração ficam só na máquina de quem gerou.
+public/narracao/*/_versoes/

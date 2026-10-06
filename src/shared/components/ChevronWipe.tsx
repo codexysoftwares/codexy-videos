@@ -40,12 +40,14 @@ const Band: React.FC<{ color: string; offset: number }> = ({
   );
 };
 
-export const ChevronWipe: React.FC = () => {
+export const ChevronWipe: React.FC<{ readonly sound?: string }> = ({
+  sound = SFX.whoosh,
+}) => {
   const { fps } = useVideoConfig();
 
   return (
     <AbsoluteFill style={{ overflow: "hidden" }}>
-      <Audio src={staticFile(SFX.whoosh)} volume={0.6} premountFor={fps} />
+      <Audio src={staticFile(sound)} volume={0.6} premountFor={fps} />
       <Band color={C.glow} offset={-3} />
       <Band color={C.navy} offset={3} />
       <Band color={C.blue} offset={0} />

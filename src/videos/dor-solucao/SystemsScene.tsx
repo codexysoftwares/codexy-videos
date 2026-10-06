@@ -1,6 +1,6 @@
 import { Easing, interpolate, useCurrentFrame } from "remotion";
-import { Panel, PillarLayout } from "../components/PillarLayout";
-import { C, EASE, MONO, clamp } from "../theme";
+import { Panel, PillarLayout } from "./PillarLayout";
+import { C, EASE, MONO, clamp } from "../../shared/theme";
 
 const BARS = [38, 52, 44, 66, 58, 80, 96];
 const TASKS = [

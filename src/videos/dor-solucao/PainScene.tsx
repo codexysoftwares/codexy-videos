@@ -1,6 +1,6 @@
 import { AbsoluteFill, Easing, interpolate, useCurrentFrame } from "remotion";
-import { Background } from "../components/Background";
-import { C, EASE, MONO, SANS, clamp } from "../theme";
+import { Background } from "../../shared/components/Background";
+import { C, EASE, MONO, SANS, clamp } from "../../shared/theme";
 
 const PAINS = ["Retrabalho.", "Erros manuais.", "Cliente esperando."];
 const RING = 2 * Math.PI * 250;

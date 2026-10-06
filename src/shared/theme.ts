@@ -36,7 +36,11 @@ export const clamp = {
 export const SFX = {
   whoosh: "sfx/whoosh.wav",
   click: "sfx/mouse-click.wav",
-  ding: "sfx/ding.wav",
   pop: "sfx/switch.wav",
   notif: "sfx/snapchat-notification.wav",
+  softBubble: "sfx/soft-bubble.wav",
+  softTick: "sfx/soft-tick.wav",
+  softRiser: "sfx/soft-riser.wav",
+  softWhoosh: "sfx/soft-whoosh.wav",
+  softImpact: "sfx/soft-impact.wav",
 };

@@ -1,54 +1,52 @@
-# Remotion video
+# Vídeos Codexy
 
-<p align="center">
-  <a href="https://github.com/remotion-dev/logo">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github.com/remotion-dev/logo/raw/main/animated-logo-banner-dark.apng">
-      <img alt="Animated Remotion Logo" src="https://github.com/remotion-dev/logo/raw/main/animated-logo-banner-light.gif">
-    </picture>
-  </a>
-</p>
+Vídeos de marketing da Codexy feitos com [Remotion](https://www.remotion.dev). Formato vertical 1080×1920, 30fps.
 
-Welcome to your Remotion project!
+## Estrutura
 
-## Commands
-
-**Install Dependencies**
-
-```console
-npm i --loglevel=error
+```
+public/
+  brand/                     logos
+  sfx/                       efeitos sonoros (npm run sfx gera os "soft-*")
+  music/                     trilhas (trilha-01.mp3, ...)
+  narracao/<video>/
+    roteiro.json             estilo da voz + texto de cada fala + nome do arquivo
+    original/completo.wav    narração inteira, numa leitura só
+    01-....wav, 02-....wav   cortes gerados pelo script (o vídeo usa estes)
+    _versoes/                takes antigos (backup)
+src/
+  shared/                    tema (cores, fontes, sfx), fundo, transição, CTA
+  videos/<video>/            cenas de cada vídeo
+  Root.tsx                   registra os vídeos (um Folder por vídeo no Studio)
+scripts/                     roteiro, corte de narração, render, sfx
+out/<video>/<id>.mp4         vídeos finais
 ```
 
-**Start Preview**
+O nome `<video>` é o mesmo em todas as pastas e no id da composição (ex.: `como-trabalhamos`).
+Variações usam sufixo no id: `como-trabalhamos-narrado`.
 
-```console
-npm run dev
-```
+## Comandos
 
-**Render video**
+| Comando | O que faz |
+|---|---|
+| `npm run dev` | Abre o Remotion Studio (prévia em tempo real) |
+| `npm run roteiro -- <video>` | Mostra o estilo e o texto para colar no gerador de voz |
+| `npm run narracao -- <video>` | Corta `original/completo.wav` nas pausas, gerando um arquivo por fala |
+| `npm run render -- <id>` | Renderiza em `out/<video>/<id>.mp4` |
 
-```console
-npx remotion render
-```
+## Fluxo de um vídeo com narração
 
-**Upgrade Remotion**
+1. Escrever o `public/narracao/<video>/roteiro.json`.
+2. `npm run roteiro -- <video>` → colar estilo + texto no Google AI Studio (TTS) e gerar **um áudio só**.
+3. Salvar como `public/narracao/<video>/original/completo.wav` (o anterior vai para `_versoes/`).
+4. `npm run narracao -- <video>` → gera `01-...wav`, `02-...wav`...
+5. Ajustar os tempos das cenas à duração de cada fala e conferir no Studio.
+6. `npm run render -- <video>-narrado`.
 
-```console
-npx remotion upgrade
-```
+## Padrões da marca
 
-## Docs
-
-Get started with Remotion by reading the [fundamentals page](https://www.remotion.dev/docs/the-fundamentals).
-
-## Help
-
-We provide help on our [Discord server](https://discord.gg/6VzzNDwUwV).
-
-## Issues
-
-Found an issue with Remotion? [File an issue here](https://github.com/remotion-dev/remotion/issues/new).
-
-## License
-
-Note that for some entities a company license is needed. [Read the terms here](https://github.com/remotion-dev/remotion/blob/main/LICENSE.md).
+- Cores: azul-marinho `#00143D`, azul elétrico `#0055FF` (ver `src/shared/theme.ts`).
+- Fontes: Hanken Grotesk + JetBrains Mono.
+- Som: efeitos discretos (`soft-*`). Nada de "ding" ou som de notificação.
+- Sem números inventados (prazos, garantias): usar textos genéricos.
+- Contato no CTA: codexy.com.br · @codexy.ai

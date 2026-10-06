@@ -6,8 +6,8 @@ import {
   useCurrentFrame,
   useVideoConfig,
 } from "remotion";
-import { C, EASE, MONO, SANS, SFX, clamp } from "../theme";
-import { Background } from "./Background";
+import { C, EASE, MONO, SANS, SFX, clamp } from "../../shared/theme";
+import { Background } from "../../shared/components/Background";
 
 type Props = {
   readonly index: string;

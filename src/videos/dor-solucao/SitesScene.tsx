@@ -6,10 +6,10 @@ import {
   useCurrentFrame,
   useVideoConfig,
 } from "remotion";
-import { Panel, PillarLayout } from "../components/PillarLayout";
-import { C, EASE, EASE_IN_OUT, MONO, SFX, clamp } from "../theme";
+import { Panel, PillarLayout } from "./PillarLayout";
+import { C, EASE, EASE_IN_OUT, MONO, SFX, clamp } from "../../shared/theme";
 
-const URL = "suaempresa.com.br";
+const SITE_URL = "suaempresa.com.br";
 const CLICK = 62;
 
 const Bar: React.FC<{ w: number | string; h: number; at: number; color?: string }> = ({
@@ -36,7 +36,7 @@ const Bar: React.FC<{ w: number | string; h: number; at: number; color?: string 
 const Browser: React.FC = () => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
-  const typed = Math.floor(interpolate(frame, [14, 34], [0, URL.length], clamp));
+  const typed = Math.floor(interpolate(frame, [14, 34], [0, SITE_URL.length], clamp));
   const press = interpolate(frame, [CLICK, CLICK + 3, CLICK + 8], [1, 0.92, 1], clamp);
   const toast = interpolate(frame, [CLICK + 6, CLICK + 18], [0, 1], { ...clamp, easing: EASE });
 
@@ -44,9 +44,6 @@ const Browser: React.FC = () => {
     <Panel style={{ display: "flex", flexDirection: "column" }}>
       <Sequence from={CLICK} durationInFrames={15} premountFor={fps}>
         <Audio src={staticFile(SFX.click)} volume={0.8} />
-      </Sequence>
-      <Sequence from={CLICK + 8} durationInFrames={30} premountFor={fps}>
-        <Audio src={staticFile(SFX.ding)} volume={0.35} />
       </Sequence>
 
       <div
@@ -74,8 +71,8 @@ const Browser: React.FC = () => {
             color: C.ice,
           }}
         >
-          <span style={{ color: C.green }}>🔒︎ </span>
-          {URL.slice(0, typed)}
+          <span style={{ color: C.green }}>https://</span>
+          {SITE_URL.slice(0, typed)}
           <span style={{ opacity: frame % 16 < 8 ? 1 : 0, color: C.glow }}>|</span>
         </div>
       </div>
