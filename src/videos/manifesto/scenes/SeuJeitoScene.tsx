@@ -1,6 +1,6 @@
 import { AbsoluteFill, interpolate, useCurrentFrame } from "remotion";
 import { clamp } from "../../../shared/theme";
-import { Caption } from "../Caption";
+import { Caption } from "../../../shared/components/Caption";
 import { Network } from "../Network";
 import { N, SCENE, f } from "../timeline";
 

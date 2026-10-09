@@ -8,3 +8,6 @@ out
 
 # Takes antigos de narração ficam só na máquina de quem gerou.
 public/narracao/*/_versoes/
+
+# Fotos de clientes ficam só na máquina de quem tem autorização.
+public/projetos/

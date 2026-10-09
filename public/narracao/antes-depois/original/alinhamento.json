@@ -1,0 +1,368 @@
+{
+  "falas": [
+    {
+      "arquivo": "01-mesma-empresa.wav",
+      "de": 0,
+      "ate": 4.168,
+      "palavras": [
+        {
+          "palavra": "Mesma",
+          "de": 0,
+          "ate": 0.395
+        },
+        {
+          "palavra": "empresa.",
+          "de": 0.418,
+          "ate": 1.103
+        },
+        {
+          "palavra": "Mesmo",
+          "de": 1.358,
+          "ate": 1.765
+        },
+        {
+          "palavra": "time.",
+          "de": 1.823,
+          "ate": 2.368
+        },
+        {
+          "palavra": "Só",
+          "de": 2.624,
+          "ate": 2.786
+        },
+        {
+          "palavra": "mudou",
+          "de": 2.844,
+          "ate": 3.239
+        },
+        {
+          "palavra": "o",
+          "de": 3.262,
+          "ate": 3.286
+        },
+        {
+          "palavra": "sistema.",
+          "de": 3.355,
+          "ate": 4.168
+        }
+      ]
+    },
+    {
+      "arquivo": "02-agenda.wav",
+      "de": 4.47,
+      "ate": 8.928,
+      "palavras": [
+        {
+          "palavra": "A",
+          "de": 4.47,
+          "ate": 4.586
+        },
+        {
+          "palavra": "agenda",
+          "de": 4.621,
+          "ate": 5.016
+        },
+        {
+          "palavra": "saiu",
+          "de": 5.085,
+          "ate": 5.538
+        },
+        {
+          "palavra": "do",
+          "de": 5.596,
+          "ate": 5.666
+        },
+        {
+          "palavra": "caderno...",
+          "de": 5.724,
+          "ate": 6.444
+        },
+        {
+          "palavra": "e",
+          "de": 6.594,
+          "ate": 6.711
+        },
+        {
+          "palavra": "passou",
+          "de": 6.769,
+          "ate": 7.129
+        },
+        {
+          "palavra": "a",
+          "de": 7.175,
+          "ate": 7.198
+        },
+        {
+          "palavra": "se",
+          "de": 7.256,
+          "ate": 7.326
+        },
+        {
+          "palavra": "organizar",
+          "de": 7.372,
+          "ate": 7.964
+        },
+        {
+          "palavra": "sozinha.",
+          "de": 8.057,
+          "ate": 8.928
+        }
+      ]
+    },
+    {
+      "arquivo": "03-mensagens.wav",
+      "de": 9.195,
+      "ate": 13.723,
+      "palavras": [
+        {
+          "palavra": "As",
+          "de": 9.195,
+          "ate": 9.346
+        },
+        {
+          "palavra": "mensagens",
+          "de": 9.404,
+          "ate": 10.031
+        },
+        {
+          "palavra": "pararam",
+          "de": 10.101,
+          "ate": 10.565
+        },
+        {
+          "palavra": "de",
+          "de": 10.623,
+          "ate": 10.67
+        },
+        {
+          "palavra": "acumular.",
+          "de": 10.693,
+          "ate": 11.471
+        },
+        {
+          "palavra": "O",
+          "de": 11.773,
+          "ate": 11.889
+        },
+        {
+          "palavra": "chatbot",
+          "de": 11.958,
+          "ate": 12.492
+        },
+        {
+          "palavra": "responde",
+          "de": 12.574,
+          "ate": 13.073
+        },
+        {
+          "palavra": "na",
+          "de": 13.142,
+          "ate": 13.27
+        },
+        {
+          "palavra": "hora.",
+          "de": 13.328,
+          "ate": 13.723
+        }
+      ]
+    },
+    {
+      "arquivo": "04-planilha.wav",
+      "de": 14.025,
+      "ate": 16.695,
+      "palavras": [
+        {
+          "palavra": "A",
+          "de": 14.025,
+          "ate": 14.083
+        },
+        {
+          "palavra": "planilha",
+          "de": 14.141,
+          "ate": 14.629
+        },
+        {
+          "palavra": "virou",
+          "de": 14.687,
+          "ate": 14.907
+        },
+        {
+          "palavra": "um",
+          "de": 14.942,
+          "ate": 15
+        },
+        {
+          "palavra": "painel.",
+          "de": 15.07,
+          "ate": 15.697
+        },
+        {
+          "palavra": "Ao",
+          "de": 15.882,
+          "ate": 16.08
+        },
+        {
+          "palavra": "vivo.",
+          "de": 16.161,
+          "ate": 16.695
+        }
+      ]
+    },
+    {
+      "arquivo": "05-caixa.wav",
+      "de": 16.858,
+      "ate": 19.841,
+      "palavras": [
+        {
+          "palavra": "E",
+          "de": 16.858,
+          "ate": 16.927
+        },
+        {
+          "palavra": "o",
+          "de": 17.009,
+          "ate": 17.055
+        },
+        {
+          "palavra": "caixa",
+          "de": 17.125,
+          "ate": 17.566
+        },
+        {
+          "palavra": "fecha",
+          "de": 17.624,
+          "ate": 17.902
+        },
+        {
+          "palavra": "sozinho,",
+          "de": 17.983,
+          "ate": 18.61
+        },
+        {
+          "palavra": "no",
+          "de": 18.634,
+          "ate": 18.703
+        },
+        {
+          "palavra": "fim",
+          "de": 18.819,
+          "ate": 19.063
+        },
+        {
+          "palavra": "do",
+          "de": 19.121,
+          "ate": 19.214
+        },
+        {
+          "palavra": "dia.",
+          "de": 19.295,
+          "ate": 19.841
+        }
+      ]
+    },
+    {
+      "arquivo": "06-nao-e-magica.wav",
+      "de": 20.027,
+      "ate": 25.158,
+      "palavras": [
+        {
+          "palavra": "Não",
+          "de": 20.027,
+          "ate": 20.259
+        },
+        {
+          "palavra": "é",
+          "de": 20.329,
+          "ate": 20.364
+        },
+        {
+          "palavra": "mágica.",
+          "de": 20.422,
+          "ate": 21.141
+        },
+        {
+          "palavra": "É",
+          "de": 21.629,
+          "ate": 21.71
+        },
+        {
+          "palavra": "um",
+          "de": 21.792,
+          "ate": 21.861
+        },
+        {
+          "palavra": "sistema",
+          "de": 21.919,
+          "ate": 22.384
+        },
+        {
+          "palavra": "feito",
+          "de": 22.442,
+          "ate": 22.744
+        },
+        {
+          "palavra": "pro",
+          "de": 22.802,
+          "ate": 22.999
+        },
+        {
+          "palavra": "jeito",
+          "de": 23.08,
+          "ate": 23.429
+        },
+        {
+          "palavra": "que",
+          "de": 23.487,
+          "ate": 23.556
+        },
+        {
+          "palavra": "a",
+          "de": 23.603,
+          "ate": 23.626
+        },
+        {
+          "palavra": "sua",
+          "de": 23.707,
+          "ate": 23.858
+        },
+        {
+          "palavra": "empresa",
+          "de": 23.881,
+          "ate": 24.276
+        },
+        {
+          "palavra": "funciona.",
+          "de": 24.323,
+          "ate": 25.158
+        }
+      ]
+    },
+    {
+      "arquivo": "07-assinatura.wav",
+      "de": 25.321,
+      "ate": 28.607,
+      "palavras": [
+        {
+          "palavra": "Codexy.",
+          "de": 25.321,
+          "ate": 26.215
+        },
+        {
+          "palavra": "Software",
+          "de": 26.633,
+          "ate": 27.306
+        },
+        {
+          "palavra": "sob",
+          "de": 27.364,
+          "ate": 27.597
+        },
+        {
+          "palavra": "medida.",
+          "de": 27.713,
+          "ate": 28.607
+        }
+      ]
+    }
+  ]
+}

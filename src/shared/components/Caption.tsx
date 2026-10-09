@@ -1,5 +1,5 @@
 import { interpolate, useCurrentFrame } from "remotion";
-import { C, EASE, SANS, clamp } from "../../shared/theme";
+import { C, EASE, SANS, clamp } from "../theme";
 
 type Props = {
   // Words wrapped in *asterisks* get the accent color.
@@ -11,6 +11,7 @@ type Props = {
   readonly top?: number;
   readonly outAt?: number;
   readonly center?: boolean;
+  readonly color?: string;
 };
 
 export const Caption: React.FC<Props> = ({
@@ -22,6 +23,7 @@ export const Caption: React.FC<Props> = ({
   top = 1330,
   outAt,
   center = false,
+  color = C.white,
 }) => {
   const frame = useCurrentFrame();
   const words = text.split(" ");
@@ -44,7 +46,7 @@ export const Caption: React.FC<Props> = ({
         fontWeight: 700,
         lineHeight: 1.12,
         letterSpacing: -size * 0.03,
-        color: C.white,
+        color,
         opacity: out,
       }}
     >
@@ -57,7 +59,7 @@ export const Caption: React.FC<Props> = ({
             key={`${w}-${i}`}
             style={{
               display: "inline-block",
-              color: key ? accent : C.white,
+              color: key ? accent : color,
               textShadow: key ? `0 0 40px ${accent}88` : "none",
               opacity: interpolate(frame, [s, s + 6], [0, 1], clamp),
               filter: `blur(${interpolate(frame, [s, s + 8], [10, 0], clamp)}px)`,

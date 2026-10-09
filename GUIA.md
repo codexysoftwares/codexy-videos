@@ -17,6 +17,15 @@ Você não precisa saber programar para usar. Precisa saber **descrever bem o qu
 | `chatbot-24h` | Um relógio rodando 24h e o chatbot atendendo de madrugada | ~27s |
 | `como-trabalhamos` | Objeções → nosso processo em 4 etapas → garantias | ~27s |
 | `como-trabalhamos-narrado` | Mesmo vídeo acima, com narração | ~38s |
+| `manifesto` | Vídeo de marca com emblema 3D, narração e trilha do ElevenLabs | ~30s |
+| `custo-planilha` | O custo escondido da planilha, em formato de nota fiscal | ~30s |
+| `vida-de-um-pedido` | Um pedido atravessando o sistema, em 3D isométrico | ~30s |
+| `ultima-luz` | Cidade 3D em miniatura: a última luz acesa é a de quem não tem sistema | ~40s |
+| `antes-depois` | Mesma empresa, antes e depois do sistema, com troca de telas | ~30s |
+| `mesma-sexta` | **Reels de anúncio** para restaurantes: a mesma sexta-feira duas vezes (caos → rebobina → organizada) e CTA de diagnóstico gratuito | ~31s |
+
+> O `manifesto` usa fotos de um cliente que ficam só na máquina do Kaike (`public/projetos/`,
+> fora do Git). Na sua máquina essa cena abre sem as fotos — é esperado.
 
 Todos são verticais (1080×1920), com a identidade da Codexy: azul-marinho, azul elétrico,
 fontes Hanken Grotesk + JetBrains Mono, transição com o chevron do "X" e CTA para
@@ -156,8 +165,18 @@ para o Kaike e coloque num arquivo `.env` na raiz do projeto (ele nunca vai para
 ELEVENLABS_API_KEY=...
 ```
 
-- **Narração:** no `roteiro.json` do vídeo, o bloco `elevenlabs` define a voz (usamos a
-  **Elena Vinter**). Rode `npm run tts -- <video>` e depois `npm run narracao -- <video>`.
+- **Narração:** no `roteiro.json` do vídeo, o bloco `elevenlabs` define a voz. Para público
+  brasileiro use o **Paulo** (`Qrdut83w0Cr152Yb4Xn3`, pt-BR) — a Elena Vinter soa com sotaque
+  de Portugal. Copie o `roteiro.json` do `mesma-sexta` como modelo. Rode `npm run tts -- <video>`
+  (gera a narração inteira num pedido só, com o tempo de cada palavra) e depois
+  `npm run narracao -- <video>` (corta um arquivo por fala).
+- **Refazer só uma fala:** se uma frase saiu mal falada, mude o texto dela no `roteiro.json`
+  (dá para pôr `voice_settings` só nela, ex.: `stability` mais alto para uma fala mais limpa) e rode
+  `npm run tts:fala -- <video> 06-cta.wav`. Só aquela fala é regenerada, usando as vizinhas
+  como referência de entonação.
+- **Economia de créditos:** os créditos são da conta da Codexy e compartilhados. Aprove o roteiro
+  antes, gere uma vez só e evite "testes" — nomes de marca (ex.: "Codexy") costumam sair mal
+  pronunciados, então prefira deixar a marca na tela e fora da fala.
 - **Música sob medida:** descreva as seções da trilha (intro, build-up, drop, final) com a
   duração de cada uma em `public/music/<nome>.plan.json` e rode `npm run musica -- <nome>`.
   A música nem sempre respeita os tempos exatos — o Claude Code analisa as batidas e encaixa
@@ -176,6 +195,9 @@ ELEVENLABS_API_KEY=...
 - **Área segura:** nada importante muito embaixo da tela — no Reels a legenda e os botões
   cobrem essa parte.
 - **CTA:** codexy.com.br · @codexy.ai
+- **Anúncios:** não usar nome nem logo de outras marcas (ex.: escreva "app de delivery", não
+  "iFood"), não afirmar características pessoais de quem assiste ("você está endividado?") e não
+  citar cliente sem contrato fechado e autorização para anúncio.
 
 ---
 
@@ -187,6 +209,9 @@ ELEVENLABS_API_KEY=...
 | `npm run render -- <id>` | Gera o MP4 em `out/<video>/` |
 | `npm run roteiro -- <video>` | Mostra o texto da narração para colar no AI Studio |
 | `npm run narracao -- <video>` | Corta o `completo.wav` em um arquivo por fala |
+| `npm run tts -- <video>` | Gera a narração inteira no ElevenLabs (precisa do `.env`) |
+| `npm run tts:fala -- <video> <arquivo>` | Refaz só uma fala no ElevenLabs |
+| `npm run musica -- <nome>` | Compõe a trilha a partir de `public/music/<nome>.plan.json` |
 | `npm run sfx` | Recria os efeitos sonoros "soft" |
 
 ---

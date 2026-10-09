@@ -1,0 +1,62 @@
+{
+  "positive_global_styles": [
+    "cinematic emotional short film score",
+    "warm piano",
+    "soft strings",
+    "intimate",
+    "instrumental",
+    "80 bpm"
+  ],
+  "negative_global_styles": ["vocals", "lyrics", "choir", "heavy drums", "epic trailer", "cheesy"],
+  "sections": [
+    {
+      "section_name": "Night intro",
+      "positive_local_styles": ["soft solo piano", "quiet night ambience", "sparse notes", "gentle melancholy", "warm"],
+      "negative_local_styles": ["drums"],
+      "duration_ms": 11000,
+      "lines": []
+    },
+    {
+      "section_name": "Routine",
+      "positive_local_styles": ["ticking clock rhythm", "repetitive piano pattern", "slightly tired", "steady"],
+      "negative_local_styles": ["happy"],
+      "duration_ms": 10300,
+      "lines": []
+    },
+    {
+      "section_name": "Days passing",
+      "positive_local_styles": ["repetition intensifying", "then thinning out to near silence at the end"],
+      "negative_local_styles": [],
+      "duration_ms": 5900,
+      "lines": []
+    },
+    {
+      "section_name": "The turn",
+      "positive_local_styles": ["hopeful", "warm strings rising", "soft pulse building", "a new beginning"],
+      "negative_local_styles": [],
+      "duration_ms": 6600,
+      "lines": []
+    },
+    {
+      "section_name": "Everything flows",
+      "positive_local_styles": ["uplifting", "flowing piano arpeggios", "light percussion", "bright"],
+      "negative_local_styles": [],
+      "duration_ms": 7800,
+      "lines": []
+    },
+    {
+      "section_name": "Coming home",
+      "positive_local_styles": ["emotional warm peak", "tender", "strings and piano together", "then softer"],
+      "negative_local_styles": [],
+      "duration_ms": 9600,
+      "lines": []
+    },
+    {
+      "section_name": "Ending",
+      "positive_local_styles": ["warm final chords", "resolving", "gentle fade"],
+      "negative_local_styles": ["drums"],
+      "duration_ms": 8800,
+      "lines": []
+    }
+  ]
+}

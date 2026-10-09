@@ -1,0 +1,20 @@
+{
+  "voz": "ElevenLabs · Elena Vinter (S4M4JhZIzYGUlDsYIOow) · eleven_multilingual_v2",
+  "estilo": "Gerado via API pelo npm run tts; as pausas entre falas são inseridas automaticamente.",
+  "elevenlabs": {
+    "voice_id": "S4M4JhZIzYGUlDsYIOow",
+    "model_id": "eleven_multilingual_v2",
+    "voice_settings": { "stability": 0.5, "similarity_boost": 0.75, "style": 0.3, "use_speaker_boost": true },
+    "pausa_entre_falas": 1.2
+  },
+  "falas": [
+    { "arquivo": "01-gancho.wav", "texto": "Sua planilha é de graça? Vamos fazer as contas." },
+    { "arquivo": "02-tempo.wav", "texto": "Alguém da sua equipe gasta uma hora por dia arrumando planilha. São vinte e duas horas por mês. A vinte e cinco reais a hora... quinhentos e cinquenta reais." },
+    { "arquivo": "03-pessoa.wav", "texto": "E quando só uma pessoa sabe mexer nela... ela vira o seu sistema. Se ela sai de férias, a empresa trava." },
+    { "arquivo": "04-pedido.wav", "texto": "Um pedido anotado no papel que se perde por semana. Um ticket de oitenta reais... mais trezentos e vinte por mês." },
+    { "arquivo": "05-lucro.wav", "texto": "E o lucro? Você só descobre no fim do mês, quando já não dá pra corrigir." },
+    { "arquivo": "06-total.wav", "texto": "Só nesse exemplo: quase novecentos reais por mês. Mais de dez mil por ano." },
+    { "arquivo": "07-virada.wav", "texto": "A planilha nunca foi de graça. Você só não estava vendo a conta." },
+    { "arquivo": "08-cta.wav", "texto": "Faz a conta da sua empresa e comenta o resultado. Se o número assustar... chama a Codexy." }
+  ]
+}

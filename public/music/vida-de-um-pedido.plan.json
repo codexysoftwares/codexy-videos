@@ -1,0 +1,56 @@
+{
+  "positive_global_styles": [
+    "light playful corporate",
+    "clockwork precision",
+    "marimba and pizzicato",
+    "clean modern",
+    "instrumental",
+    "105 bpm",
+    "background music for narration"
+  ],
+  "negative_global_styles": ["vocals", "lyrics", "choir", "heavy drums", "dark", "cheesy ukulele"],
+  "sections": [
+    {
+      "section_name": "Clockwork intro",
+      "positive_local_styles": ["delicate ticking", "single marimba motif", "curious", "minimal"],
+      "negative_local_styles": ["drums"],
+      "duration_ms": 4400,
+      "lines": []
+    },
+    {
+      "section_name": "Journey",
+      "positive_local_styles": ["playful marimba", "pizzicato strings", "light percussion", "bouncy", "step by step"],
+      "negative_local_styles": [],
+      "duration_ms": 12100,
+      "lines": []
+    },
+    {
+      "section_name": "Problem",
+      "positive_local_styles": ["music thins out", "slightly off-balance", "unresolved", "sparse", "a bit awkward"],
+      "negative_local_styles": ["drums", "happy"],
+      "duration_ms": 7000,
+      "lines": []
+    },
+    {
+      "section_name": "Transformation",
+      "positive_local_styles": ["building", "warm rising synth pads", "hopeful", "crescendo", "precise ticking returns"],
+      "negative_local_styles": [],
+      "duration_ms": 12900,
+      "lines": []
+    },
+    {
+      "section_name": "Flow",
+      "positive_local_styles": ["full uplifting groove", "bright", "confident", "everything in sync"],
+      "negative_local_styles": [],
+      "duration_ms": 9400,
+      "lines": []
+    },
+    {
+      "section_name": "Outro",
+      "positive_local_styles": ["steady positive groove", "warm", "resolving to a clean final chord"],
+      "negative_local_styles": [],
+      "duration_ms": 12700,
+      "lines": []
+    }
+  ]
+}

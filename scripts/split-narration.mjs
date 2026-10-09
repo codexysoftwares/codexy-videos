@@ -1,7 +1,7 @@
 // Splits public/narracao/<video>/original/completo.wav into the per-scene files listed in roteiro.json,
 // cutting at the longest pauses (one cut between each pair of paragraphs).
 // Usage: npm run narracao -- <video>
-import { readFileSync, writeFileSync } from "node:fs";
+import { existsSync, readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
 const video = process.argv[2];
@@ -48,7 +48,7 @@ const cuts = gaps
   .slice(0, names.length - 1)
   .sort((x, y) => x.s - y.s);
 
-if (cuts.length < names.length - 1) {
+if (!existsSync(join(dir, "original/alinhamento.json")) && cuts.length < names.length - 1) {
   console.error(`Encontrei só ${cuts.length + 1} trechos, mas o roteiro tem ${names.length} falas.`);
   process.exit(1);
 }
@@ -58,9 +58,34 @@ const TAIL = 0.25;
 const FADE = Math.floor(sr * 0.01);
 const bounds = [first, ...cuts.flatMap((c) => [c.s, c.e]), last];
 
+// With ElevenLabs word alignment (npm run tts), cut exactly where each fala's text starts and ends.
+const alignPath = join(dir, "original/alinhamento.json");
+const aligned = existsSync(alignPath) ? JSON.parse(readFileSync(alignPath, "utf8")).falas : null;
+const ranges = names.map((_, k) => {
+  if (aligned) {
+    const prevEnd = k > 0 ? aligned[k - 1].ate : 0;
+    const nextStart = k < aligned.length - 1 ? aligned[k + 1].de : n / sr;
+    return [
+      Math.max((prevEnd + aligned[k].de) / 2, aligned[k].de - LEAD, 0),
+      Math.min((aligned[k].ate + nextStart) / 2, aligned[k].ate + TAIL, n / sr),
+    ];
+  }
+  return [bounds[2 * k] * STEP - LEAD, bounds[2 * k + 1] * STEP + TAIL];
+});
+if (aligned) {
+  const words = Object.fromEntries(
+    aligned.map((fl, k) => [
+      fl.arquivo,
+      fl.palavras.map((w) => ({ palavra: w.palavra, de: +(w.de - ranges[k][0]).toFixed(3), ate: +(w.ate - ranges[k][0]).toFixed(3) })),
+    ]),
+  );
+  writeFileSync(join(dir, "palavras.json"), JSON.stringify(words, null, 2));
+  console.log("Cortes pelo alinhamento do texto; tempos de cada palavra em palavras.json");
+}
+
 names.forEach((name, k) => {
-  const a = Math.max(0, Math.round((bounds[2 * k] * STEP - LEAD) * sr));
-  const z = Math.min(n, Math.round((bounds[2 * k + 1] * STEP + TAIL) * sr));
+  const a = Math.max(0, Math.round(ranges[k][0] * sr));
+  const z = Math.min(n, Math.round(ranges[k][1] * sr));
   const len = z - a;
   const out = Buffer.alloc(44 + len * 2);
   out.write("RIFF", 0);

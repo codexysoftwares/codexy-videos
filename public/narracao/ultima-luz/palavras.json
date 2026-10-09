@@ -1,0 +1,440 @@
+{
+  "01-lucia.wav": [
+    {
+      "palavra": "Essa",
+      "de": 0,
+      "ate": 0.348
+    },
+    {
+      "palavra": "é",
+      "de": 0.372,
+      "ate": 0.395
+    },
+    {
+      "palavra": "a",
+      "de": 0.464,
+      "ate": 0.488
+    },
+    {
+      "palavra": "Lúcia.",
+      "de": 0.569,
+      "ate": 1.289
+    },
+    {
+      "palavra": "Dona",
+      "de": 1.591,
+      "ate": 1.904
+    },
+    {
+      "palavra": "de",
+      "de": 1.95,
+      "ate": 1.997
+    },
+    {
+      "palavra": "uma",
+      "de": 2.032,
+      "ate": 2.171
+    },
+    {
+      "palavra": "clínica.",
+      "de": 2.218,
+      "ate": 2.995
+    }
+  ],
+  "02-ultima-luz.wav": [
+    {
+      "palavra": "Todo",
+      "de": 0.128,
+      "ate": 0.499
+    },
+    {
+      "palavra": "dia,",
+      "de": 0.581,
+      "ate": 1.057
+    },
+    {
+      "palavra": "a",
+      "de": 1.173,
+      "ate": 1.242
+    },
+    {
+      "palavra": "última",
+      "de": 1.347,
+      "ate": 1.684
+    },
+    {
+      "palavra": "luz",
+      "de": 1.742,
+      "ate": 1.927
+    },
+    {
+      "palavra": "acesa",
+      "de": 2.009,
+      "ate": 2.461
+    },
+    {
+      "palavra": "da",
+      "de": 2.508,
+      "ate": 2.612
+    },
+    {
+      "palavra": "rua...",
+      "de": 2.682,
+      "ate": 3.216
+    },
+    {
+      "palavra": "é",
+      "de": 3.448,
+      "ate": 3.53
+    },
+    {
+      "palavra": "a",
+      "de": 3.611,
+      "ate": 3.646
+    },
+    {
+      "palavra": "dela.",
+      "de": 3.727,
+      "ate": 4.307
+    }
+  ],
+  "03-rotina.wav": [
+    {
+      "palavra": "Agenda",
+      "de": 0.128,
+      "ate": 0.557
+    },
+    {
+      "palavra": "no",
+      "de": 0.604,
+      "ate": 0.673
+    },
+    {
+      "palavra": "papel.",
+      "de": 0.72,
+      "ate": 1.324
+    },
+    {
+      "palavra": "WhatsApp",
+      "de": 1.579,
+      "ate": 2.136
+    },
+    {
+      "palavra": "um",
+      "de": 2.241,
+      "ate": 2.345
+    },
+    {
+      "palavra": "por",
+      "de": 2.403,
+      "ate": 2.601
+    },
+    {
+      "palavra": "um.",
+      "de": 2.682,
+      "ate": 2.914
+    },
+    {
+      "palavra": "Planilha",
+      "de": 3.019,
+      "ate": 3.692
+    },
+    {
+      "palavra": "até",
+      "de": 3.797,
+      "ate": 4.075
+    },
+    {
+      "palavra": "tarde.",
+      "de": 4.156,
+      "ate": 4.807
+    }
+  ],
+  "04-tempo.wav": [
+    {
+      "palavra": "A",
+      "de": 0.127,
+      "ate": 0.209
+    },
+    {
+      "palavra": "clínica",
+      "de": 0.29,
+      "ate": 0.742
+    },
+    {
+      "palavra": "cresceu.",
+      "de": 0.777,
+      "ate": 1.44
+    },
+    {
+      "palavra": "O",
+      "de": 1.543,
+      "ate": 1.603
+    },
+    {
+      "palavra": "tempo",
+      "de": 1.671,
+      "ate": 1.904
+    },
+    {
+      "palavra": "dela,",
+      "de": 1.962,
+      "ate": 2.252
+    },
+    {
+      "palavra": "não.",
+      "de": 2.276,
+      "ate": 2.787
+    }
+  ],
+  "05-virada.wav": [
+    {
+      "palavra": "Até",
+      "de": 0.15,
+      "ate": 0.382
+    },
+    {
+      "palavra": "que",
+      "de": 0.44,
+      "ate": 0.509
+    },
+    {
+      "palavra": "a",
+      "de": 0.533,
+      "ate": 0.556
+    },
+    {
+      "palavra": "Codexy",
+      "de": 0.602,
+      "ate": 1.09
+    },
+    {
+      "palavra": "construiu",
+      "de": 1.148,
+      "ate": 1.636
+    },
+    {
+      "palavra": "um",
+      "de": 1.671,
+      "ate": 1.729
+    },
+    {
+      "palavra": "sistema",
+      "de": 1.775,
+      "ate": 2.216
+    },
+    {
+      "palavra": "do",
+      "de": 2.263,
+      "ate": 2.332
+    },
+    {
+      "palavra": "jeito",
+      "de": 2.39,
+      "ate": 2.611
+    },
+    {
+      "palavra": "que",
+      "de": 2.657,
+      "ate": 2.727
+    },
+    {
+      "palavra": "ela",
+      "de": 2.75,
+      "ate": 2.878
+    },
+    {
+      "palavra": "trabalha.",
+      "de": 2.924,
+      "ate": 3.714
+    }
+  ],
+  "06-sistema.wav": [
+    {
+      "palavra": "Agenda",
+      "de": 0.127,
+      "ate": 0.604
+    },
+    {
+      "palavra": "organizada.",
+      "de": 0.662,
+      "ate": 1.59
+    },
+    {
+      "palavra": "Pacientes",
+      "de": 1.822,
+      "ate": 2.52
+    },
+    {
+      "palavra": "confirmando",
+      "de": 2.578,
+      "ate": 3.123
+    },
+    {
+      "palavra": "sozinhos.",
+      "de": 3.192,
+      "ate": 4.087
+    },
+    {
+      "palavra": "Caixa",
+      "de": 4.563,
+      "ate": 5.015
+    },
+    {
+      "palavra": "fechado",
+      "de": 5.073,
+      "ate": 5.665
+    },
+    {
+      "palavra": "no",
+      "de": 5.723,
+      "ate": 5.793
+    },
+    {
+      "palavra": "fim",
+      "de": 5.851,
+      "ate": 5.979
+    },
+    {
+      "palavra": "do",
+      "de": 6.014,
+      "ate": 6.095
+    },
+    {
+      "palavra": "dia.",
+      "de": 6.177,
+      "ate": 6.675
+    }
+  ],
+  "07-seis-da-tarde.wav": [
+    {
+      "palavra": "Hoje,",
+      "de": 0.15,
+      "ate": 0.673
+    },
+    {
+      "palavra": "às",
+      "de": 0.731,
+      "ate": 0.87
+    },
+    {
+      "palavra": "seis",
+      "de": 0.905,
+      "ate": 1.16
+    },
+    {
+      "palavra": "da",
+      "de": 1.218,
+      "ate": 1.323
+    },
+    {
+      "palavra": "tarde,",
+      "de": 1.392,
+      "ate": 2.124
+    },
+    {
+      "palavra": "a",
+      "de": 2.286,
+      "ate": 2.344
+    },
+    {
+      "palavra": "luz",
+      "de": 2.414,
+      "ate": 2.6
+    },
+    {
+      "palavra": "da",
+      "de": 2.658,
+      "ate": 2.751
+    },
+    {
+      "palavra": "clínica",
+      "de": 2.82,
+      "ate": 3.331
+    },
+    {
+      "palavra": "apaga",
+      "de": 3.354,
+      "ate": 3.749
+    },
+    {
+      "palavra": "com",
+      "de": 3.796,
+      "ate": 3.935
+    },
+    {
+      "palavra": "as",
+      "de": 4.016,
+      "ate": 4.098
+    },
+    {
+      "palavra": "outras.",
+      "de": 4.202,
+      "ate": 4.817
+    }
+  ],
+  "08-acende-outra.wav": [
+    {
+      "palavra": "E",
+      "de": 0.15,
+      "ate": 0.231
+    },
+    {
+      "palavra": "acende",
+      "de": 0.301,
+      "ate": 0.673
+    },
+    {
+      "palavra": "outra.",
+      "de": 0.742,
+      "ate": 1.242
+    }
+  ],
+  "09-assinatura.wav": [
+    {
+      "palavra": "Codexy.",
+      "de": 0.081,
+      "ate": 0.952
+    },
+    {
+      "palavra": "Software",
+      "de": 1.254,
+      "ate": 1.834
+    },
+    {
+      "palavra": "sob",
+      "de": 1.857,
+      "ate": 2.032
+    },
+    {
+      "palavra": "medida...",
+      "de": 2.113,
+      "ate": 2.833
+    },
+    {
+      "palavra": "pra",
+      "de": 2.995,
+      "ate": 3.169
+    },
+    {
+      "palavra": "você",
+      "de": 3.204,
+      "ate": 3.413
+    },
+    {
+      "palavra": "voltar",
+      "de": 3.483,
+      "ate": 3.727
+    },
+    {
+      "palavra": "pra",
+      "de": 3.761,
+      "ate": 3.901
+    },
+    {
+      "palavra": "casa.",
+      "de": 3.959,
+      "ate": 4.679
+    }
+  ]
+}

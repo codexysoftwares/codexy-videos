@@ -1,5 +1,7 @@
 // Generates the whole narration of a video in ONE ElevenLabs request (consistent intonation)
-// and saves it as public/narracao/<video>/original/completo.wav. Needs ELEVENLABS_API_KEY in .env.
+// and saves public/narracao/<video>/original/completo.wav plus original/alinhamento.json, which has
+// the start/end time of every fala and every word (used by `npm run narracao` to cut precisely).
+// Needs ELEVENLABS_API_KEY in .env.
 // Usage: npm run tts -- <video>
 import { existsSync, mkdirSync, readFileSync, renameSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
@@ -18,12 +20,12 @@ if (!key) {
 const dir = join("public/narracao", video);
 const r = JSON.parse(readFileSync(join(dir, "roteiro.json"), "utf8"));
 const cfg = r.elevenlabs;
-const pause = cfg.pausa_entre_falas ?? 1.2;
-const text = r.falas.map((f) => f.texto).join(` <break time="${pause}s" /> `);
+const SEP = "\n\n";
+const text = r.falas.map((f) => f.texto).join(SEP);
 
 const SR = 24000;
 const res = await fetch(
-  `https://api.elevenlabs.io/v1/text-to-speech/${cfg.voice_id}?output_format=pcm_${SR}`,
+  `https://api.elevenlabs.io/v1/text-to-speech/${cfg.voice_id}/with-timestamps?output_format=pcm_${SR}`,
   {
     method: "POST",
     headers: { "xi-api-key": key, "Content-Type": "application/json" },
@@ -34,7 +36,31 @@ if (!res.ok) {
   console.error(res.status, await res.text());
   process.exit(1);
 }
-const pcm = Buffer.from(await res.arrayBuffer());
+const body = await res.json();
+const pcm = Buffer.from(body.audio_base64, "base64");
+const al = body.alignment;
+
+// Map each fala (and each word in it) to times using its character offsets in the joined text.
+let offset = 0;
+const falas = r.falas.map((fala) => {
+  const start = text.indexOf(fala.texto, offset);
+  const end = start + fala.texto.length - 1;
+  offset = end + 1;
+  const words = [];
+  const re = /\S+/g;
+  let m;
+  while ((m = re.exec(fala.texto))) {
+    const a = start + m.index;
+    const b = a + m[0].length - 1;
+    words.push({ palavra: m[0], de: al.character_start_times_seconds[a], ate: al.character_end_times_seconds[b] });
+  }
+  return {
+    arquivo: fala.arquivo,
+    de: al.character_start_times_seconds[start],
+    ate: al.character_end_times_seconds[end],
+    palavras: words,
+  };
+});
 
 const wav = Buffer.alloc(44);
 wav.write("RIFF", 0);
@@ -50,13 +76,16 @@ wav.writeUInt16LE(16, 34);
 wav.write("data", 36);
 wav.writeUInt32LE(pcm.length, 40);
 
-const out = join(dir, "original/completo.wav");
-mkdirSync(join(dir, "original"), { recursive: true });
+const orig = join(dir, "original");
+mkdirSync(orig, { recursive: true });
+const out = join(orig, "completo.wav");
 if (existsSync(out)) {
   const backup = join(dir, "_versoes", new Date().toISOString().replace(/[:.]/g, "-"));
   mkdirSync(backup, { recursive: true });
   renameSync(out, join(backup, "completo.wav"));
+  if (existsSync(join(orig, "alinhamento.json"))) renameSync(join(orig, "alinhamento.json"), join(backup, "alinhamento.json"));
   console.log(`Versão anterior movida para ${backup}`);
 }
 writeFileSync(out, Buffer.concat([wav, pcm]));
-console.log(`Narração salva em ${out} (${(pcm.length / 2 / SR).toFixed(2)}s)`);
+writeFileSync(join(orig, "alinhamento.json"), JSON.stringify({ falas }, null, 2));
+console.log(`Narração salva em ${out} (${(pcm.length / 2 / SR).toFixed(2)}s) com alinhamento por palavra`);

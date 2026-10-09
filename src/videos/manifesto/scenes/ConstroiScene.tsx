@@ -1,6 +1,6 @@
 import { AbsoluteFill, interpolate, interpolateColors, useCurrentFrame } from "remotion";
 import { C, EASE, clamp } from "../../../shared/theme";
-import { Caption } from "../Caption";
+import { Caption } from "../../../shared/components/Caption";
 import { N, SCENE, f } from "../timeline";
 
 const L = (t: number) => f(t - SCENE.constroi.from);

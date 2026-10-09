@@ -1,0 +1,436 @@
+{
+  "falas": [
+    {
+      "arquivo": "01-gancho.wav",
+      "de": 0,
+      "ate": 2.415,
+      "palavras": [
+        {
+          "palavra": "Todo",
+          "de": 0,
+          "ate": 0.302
+        },
+        {
+          "palavra": "dono",
+          "de": 0.348,
+          "ate": 0.534
+        },
+        {
+          "palavra": "de",
+          "de": 0.58,
+          "ate": 0.65
+        },
+        {
+          "palavra": "bar",
+          "de": 0.708,
+          "ate": 0.871
+        },
+        {
+          "palavra": "já",
+          "de": 0.952,
+          "ate": 1.033
+        },
+        {
+          "palavra": "viveu",
+          "de": 1.091,
+          "ate": 1.393
+        },
+        {
+          "palavra": "essa",
+          "de": 1.44,
+          "ate": 1.591
+        },
+        {
+          "palavra": "sexta-feira.",
+          "de": 1.649,
+          "ate": 2.415
+        }
+      ]
+    },
+    {
+      "arquivo": "02-caos.wav",
+      "de": 2.577,
+      "ate": 11.134,
+      "palavras": [
+        {
+          "palavra": "Reserva",
+          "de": 2.577,
+          "ate": 2.984
+        },
+        {
+          "palavra": "sem",
+          "de": 3.03,
+          "ate": 3.158
+        },
+        {
+          "palavra": "resposta",
+          "de": 3.204,
+          "ate": 3.68
+        },
+        {
+          "palavra": "no",
+          "de": 3.727,
+          "ate": 3.796
+        },
+        {
+          "palavra": "WhatsApp.",
+          "de": 3.831,
+          "ate": 4.435
+        },
+        {
+          "palavra": "Pedido",
+          "de": 4.54,
+          "ate": 4.992
+        },
+        {
+          "palavra": "do",
+          "de": 5.039,
+          "ate": 5.108
+        },
+        {
+          "palavra": "aplicativo",
+          "de": 5.143,
+          "ate": 5.886
+        },
+        {
+          "palavra": "redigitado",
+          "de": 5.956,
+          "ate": 6.722
+        },
+        {
+          "palavra": "no",
+          "de": 6.78,
+          "ate": 6.873
+        },
+        {
+          "palavra": "caixa.",
+          "de": 6.931,
+          "ate": 7.43
+        },
+        {
+          "palavra": "Um",
+          "de": 7.546,
+          "ate": 7.674
+        },
+        {
+          "palavra": "preço",
+          "de": 7.732,
+          "ate": 8.057
+        },
+        {
+          "palavra": "em",
+          "de": 8.092,
+          "ate": 8.139
+        },
+        {
+          "palavra": "cada",
+          "de": 8.185,
+          "ate": 8.394
+        },
+        {
+          "palavra": "lugar...",
+          "de": 8.429,
+          "ate": 8.916
+        },
+        {
+          "palavra": "E",
+          "de": 9.021,
+          "ate": 9.102
+        },
+        {
+          "palavra": "no",
+          "de": 9.172,
+          "ate": 9.242
+        },
+        {
+          "palavra": "fim",
+          "de": 9.3,
+          "ate": 9.416
+        },
+        {
+          "palavra": "da",
+          "de": 9.462,
+          "ate": 9.52
+        },
+        {
+          "palavra": "noite,",
+          "de": 9.567,
+          "ate": 9.996
+        },
+        {
+          "palavra": "o",
+          "de": 10.089,
+          "ate": 10.17
+        },
+        {
+          "palavra": "caixa",
+          "de": 10.228,
+          "ate": 10.507
+        },
+        {
+          "palavra": "não",
+          "de": 10.553,
+          "ate": 10.67
+        },
+        {
+          "palavra": "bate.",
+          "de": 10.704,
+          "ate": 11.134
+        }
+      ]
+    },
+    {
+      "arquivo": "03-rebobina.wav",
+      "de": 11.273,
+      "ate": 13.235,
+      "palavras": [
+        {
+          "palavra": "Agora...",
+          "de": 11.273,
+          "ate": 11.97
+        },
+        {
+          "palavra": "a",
+          "de": 12.109,
+          "ate": 12.19
+        },
+        {
+          "palavra": "mesma",
+          "de": 12.283,
+          "ate": 12.69
+        },
+        {
+          "palavra": "sexta.",
+          "de": 12.759,
+          "ate": 13.235
+        }
+      ]
+    },
+    {
+      "arquivo": "04-ordem.wav",
+      "de": 13.398,
+      "ate": 19.876,
+      "palavras": [
+        {
+          "palavra": "A",
+          "de": 13.398,
+          "ate": 13.468
+        },
+        {
+          "palavra": "reserva",
+          "de": 13.549,
+          "ate": 13.955
+        },
+        {
+          "palavra": "se",
+          "de": 14.002,
+          "ate": 14.083
+        },
+        {
+          "palavra": "confirma",
+          "de": 14.141,
+          "ate": 14.605
+        },
+        {
+          "palavra": "sozinha.",
+          "de": 14.651,
+          "ate": 15.325
+        },
+        {
+          "palavra": "O",
+          "de": 15.441,
+          "ate": 15.511
+        },
+        {
+          "palavra": "pedido",
+          "de": 15.615,
+          "ate": 15.975
+        },
+        {
+          "palavra": "cai",
+          "de": 16.021,
+          "ate": 16.161
+        },
+        {
+          "palavra": "direto",
+          "de": 16.219,
+          "ate": 16.683
+        },
+        {
+          "palavra": "na",
+          "de": 16.741,
+          "ate": 16.811
+        },
+        {
+          "palavra": "cozinha.",
+          "de": 16.857,
+          "ate": 17.38
+        },
+        {
+          "palavra": "E",
+          "de": 17.519,
+          "ate": 17.6
+        },
+        {
+          "palavra": "o",
+          "de": 17.67,
+          "ate": 17.705
+        },
+        {
+          "palavra": "preço",
+          "de": 17.763,
+          "ate": 18.158
+        },
+        {
+          "palavra": "é",
+          "de": 18.262,
+          "ate": 18.332
+        },
+        {
+          "palavra": "um",
+          "de": 18.413,
+          "ate": 18.46
+        },
+        {
+          "palavra": "só,",
+          "de": 18.552,
+          "ate": 18.819
+        },
+        {
+          "palavra": "em",
+          "de": 18.854,
+          "ate": 18.97
+        },
+        {
+          "palavra": "todo",
+          "de": 19.075,
+          "ate": 19.365
+        },
+        {
+          "palavra": "lugar.",
+          "de": 19.412,
+          "ate": 19.876
+        }
+      ]
+    },
+    {
+      "arquivo": "05-caixa.wav",
+      "de": 19.992,
+      "ate": 21.78,
+      "palavras": [
+        {
+          "palavra": "E",
+          "de": 19.992,
+          "ate": 20.073
+        },
+        {
+          "palavra": "o",
+          "de": 20.143,
+          "ate": 20.178
+        },
+        {
+          "palavra": "caixa",
+          "de": 20.259,
+          "ate": 20.7
+        },
+        {
+          "palavra": "fecha",
+          "de": 20.77,
+          "ate": 21.072
+        },
+        {
+          "palavra": "batendo.",
+          "de": 21.118,
+          "ate": 21.78
+        }
+      ]
+    },
+    {
+      "arquivo": "06-cta.wav",
+      "de": 21.977,
+      "ate": 27.817,
+      "palavras": [
+        {
+          "palavra": "Sistema",
+          "de": 21.977,
+          "ate": 22.477
+        },
+        {
+          "palavra": "sob",
+          "de": 22.523,
+          "ate": 22.72
+        },
+        {
+          "palavra": "medida",
+          "de": 22.825,
+          "ate": 23.231
+        },
+        {
+          "palavra": "pro",
+          "de": 23.289,
+          "ate": 23.44
+        },
+        {
+          "palavra": "seu",
+          "de": 23.487,
+          "ate": 23.649
+        },
+        {
+          "palavra": "bar.",
+          "de": 23.707,
+          "ate": 24.056
+        },
+        {
+          "palavra": "Chama",
+          "de": 24.195,
+          "ate": 24.508
+        },
+        {
+          "palavra": "a",
+          "de": 24.532,
+          "ate": 24.555
+        },
+        {
+          "palavra": "Codexy",
+          "de": 24.613,
+          "ate": 25.077
+        },
+        {
+          "palavra": "no",
+          "de": 25.124,
+          "ate": 25.182
+        },
+        {
+          "palavra": "WhatsApp",
+          "de": 25.205,
+          "ate": 25.774
+        },
+        {
+          "palavra": "e",
+          "de": 25.855,
+          "ate": 25.902
+        },
+        {
+          "palavra": "faz",
+          "de": 25.96,
+          "ate": 26.145
+        },
+        {
+          "palavra": "um",
+          "de": 26.203,
+          "ate": 26.25
+        },
+        {
+          "palavra": "diagnóstico",
+          "de": 26.296,
+          "ate": 26.935
+        },
+        {
+          "palavra": "gratuito.",
+          "de": 26.981,
+          "ate": 27.817
+        }
+      ]
+    }
+  ]
+}

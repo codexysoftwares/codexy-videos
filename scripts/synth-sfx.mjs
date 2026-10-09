@@ -112,4 +112,40 @@ const gen = (seconds, fn) =>
   );
 }
 
+// Phone vibrating on a table: two short buzz pulses of a low square-ish tone with rattle.
+{
+  let phase = 0;
+  wav(
+    "phone-buzz.wav",
+    gen(0.62, (t) => {
+      const on = (t < 0.24) || (t > 0.32 && t < 0.56);
+      if (!on) return 0;
+      const local = t < 0.24 ? t : t - 0.32;
+      const env = Math.min(1, local / 0.01) * Math.min(1, (0.24 - local) / 0.02);
+      phase += (2 * Math.PI * 165) / SR;
+      const tone = Math.tanh(Math.sin(phase) * 3) * 0.7 + Math.sin(phase * 2.01) * 0.15;
+      return (tone + noise() * 0.08) * env;
+    }),
+  );
+}
+
+// Tape rewind: filtered noise plus fast chirps sliding up in pitch, accelerating.
+{
+  let phase = 0;
+  let lp = 0;
+  const dur = 1.25;
+  wav(
+    "rewind.wav",
+    gen(dur, (t) => {
+      const p = t / dur;
+      const f = 300 + 2400 * p * p;
+      phase += (2 * Math.PI * f) / SR;
+      lp += 0.25 * (noise() - lp);
+      const chirp = Math.sin(phase) * (0.5 + 0.5 * Math.sin(2 * Math.PI * (8 + 30 * p) * t));
+      const env = Math.min(1, t / 0.05) * Math.min(1, (dur - t) / 0.06);
+      return (chirp * 0.45 + lp * 0.55) * env;
+    }),
+  );
+}
+
 console.log("SFX generated in public/sfx/");

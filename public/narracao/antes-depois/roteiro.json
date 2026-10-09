@@ -1,0 +1,18 @@
+{
+  "voz": "ElevenLabs · Elena Vinter (S4M4JhZIzYGUlDsYIOow) · eleven_multilingual_v2",
+  "estilo": "Gerado via API pelo npm run tts.",
+  "elevenlabs": {
+    "voice_id": "S4M4JhZIzYGUlDsYIOow",
+    "model_id": "eleven_multilingual_v2",
+    "voice_settings": { "stability": 0.5, "similarity_boost": 0.75, "style": 0.35, "use_speaker_boost": true, "speed": 1.05 }
+  },
+  "falas": [
+    { "arquivo": "01-mesma-empresa.wav", "texto": "Mesma empresa. Mesmo time. Só mudou o sistema." },
+    { "arquivo": "02-agenda.wav", "texto": "A agenda saiu do caderno... e passou a se organizar sozinha." },
+    { "arquivo": "03-mensagens.wav", "texto": "As mensagens pararam de acumular. O chatbot responde na hora." },
+    { "arquivo": "04-planilha.wav", "texto": "A planilha virou um painel. Ao vivo." },
+    { "arquivo": "05-caixa.wav", "texto": "E o caixa fecha sozinho, no fim do dia." },
+    { "arquivo": "06-nao-e-magica.wav", "texto": "Não é mágica. É um sistema feito pro jeito que a sua empresa funciona." },
+    { "arquivo": "07-assinatura.wav", "texto": "Codexy. Software sob medida." }
+  ]
+}

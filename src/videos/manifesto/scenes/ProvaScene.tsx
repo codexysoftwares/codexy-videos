@@ -1,39 +1,14 @@
 import { AbsoluteFill, Img, interpolate, staticFile, useCurrentFrame } from "remotion";
 import { C, MONO, SANS, clamp } from "../../../shared/theme";
+import { RESTAURANT_SCREENS } from "../RestaurantScreens";
 import { BEAT, SCENE, f } from "../timeline";
 
 const L = (t: number) => f(t - SCENE.prova.from);
 const CUTS = BEAT.proofCuts.map(L);
 
-// Real project screenshots (public/projetos/taquinho/...). While empty, stylized placeholders are shown.
+// Real system screenshots (e.g. public/projetos/taquinho/...). While empty, the stylized
+// restaurant screens built with the client's real dish photos are shown.
 export const PROOF_IMAGES: string[] = [];
-
-const ACCENTS = [C.glow, "#F5A524", C.green, "#B26BFF", C.glow];
-
-const Placeholder: React.FC<{ readonly i: number }> = ({ i }) => {
-  const a = ACCENTS[i % ACCENTS.length];
-  const cols = i % 2 === 0 ? 2 : 3;
-  return (
-    <div style={{ width: "100%", height: "100%", padding: 40, display: "flex", flexDirection: "column", gap: 24 }}>
-      <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-        <div style={{ width: 220, height: 34, borderRadius: 17, backgroundColor: a }} />
-        <div style={{ width: 120, height: 24, borderRadius: 12, backgroundColor: "rgba(255,255,255,0.15)" }} />
-      </div>
-      <div style={{ display: "grid", gridTemplateColumns: `repeat(${cols}, 1fr)`, gap: 20, flex: 1 }}>
-        {Array.from({ length: cols * 3 }).map((_, k) => (
-          <div
-            key={k}
-            style={{
-              borderRadius: 22,
-              backgroundColor: k === 0 ? `${a}55` : "rgba(255,255,255,0.06)",
-              border: "2px solid rgba(255,255,255,0.08)",
-            }}
-          />
-        ))}
-      </div>
-    </div>
-  );
-};
 
 // Fast montage cut on the music beats: one screen per beat.
 export const ProvaScene: React.FC = () => {
@@ -42,6 +17,7 @@ export const ProvaScene: React.FC = () => {
   const shotStart = CUTS[shot];
   const local = frame - shotStart;
   const real = PROOF_IMAGES.length > 0;
+  const Screen = RESTAURANT_SCREENS[shot % RESTAURANT_SCREENS.length];
 
   return (
     <AbsoluteFill
@@ -62,7 +38,7 @@ export const ProvaScene: React.FC = () => {
           color: C.glow,
         }}
       >
-        {real ? "PROJETO REAL · RESTAURANTE" : "DO PROCESSO AO PRODUTO"}
+        {real ? "PROJETO REAL · RESTAURANTE" : "SISTEMA PARA RESTAURANTE"}
       </div>
       <div
         style={{
@@ -91,7 +67,7 @@ export const ProvaScene: React.FC = () => {
             }}
           />
         ) : (
-          <Placeholder i={shot} />
+          <Screen t={local} />
         )}
       </div>
       <div

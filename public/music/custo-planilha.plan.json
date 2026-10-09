@@ -1,0 +1,55 @@
+{
+  "positive_global_styles": [
+    "modern corporate tech",
+    "clean minimal electronic",
+    "curious and smart",
+    "instrumental",
+    "100 bpm",
+    "background music for narration"
+  ],
+  "negative_global_styles": ["vocals", "lyrics", "choir", "cheesy", "loud lead melody", "comedic"],
+  "sections": [
+    {
+      "section_name": "Curious intro",
+      "positive_local_styles": ["curious plucks", "light ticking percussion", "minimal", "question-like motif"],
+      "negative_local_styles": ["heavy drums"],
+      "duration_ms": 4300,
+      "lines": []
+    },
+    {
+      "section_name": "Counting groove",
+      "positive_local_styles": ["steady clock-like groove", "soft kick", "muted synth bass", "ticking hi-hats", "focused"],
+      "negative_local_styles": ["big drops"],
+      "duration_ms": 20000,
+      "lines": []
+    },
+    {
+      "section_name": "Tension",
+      "positive_local_styles": ["darker", "building tension", "pulsing bass", "suspense"],
+      "negative_local_styles": [],
+      "duration_ms": 13900,
+      "lines": []
+    },
+    {
+      "section_name": "Reveal",
+      "positive_local_styles": ["impactful hit at the start", "big swelling synths", "dramatic reveal"],
+      "negative_local_styles": [],
+      "duration_ms": 6800,
+      "lines": []
+    },
+    {
+      "section_name": "Breakdown",
+      "positive_local_styles": ["near silence", "single soft pad", "reflective"],
+      "negative_local_styles": ["drums"],
+      "duration_ms": 4800,
+      "lines": []
+    },
+    {
+      "section_name": "Confident outro",
+      "positive_local_styles": ["uplifting", "confident", "warm resolve", "clean ending"],
+      "negative_local_styles": [],
+      "duration_ms": 9200,
+      "lines": []
+    }
+  ]
+}

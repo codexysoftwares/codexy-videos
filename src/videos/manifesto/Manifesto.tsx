@@ -1,16 +1,14 @@
-import { lightLeak } from "@remotion/effects/light-leak";
 import { Audio } from "@remotion/media";
 import {
   AbsoluteFill,
   Sequence,
-  Solid,
   interpolate,
   staticFile,
   useCurrentFrame,
   useVideoConfig,
 } from "remotion";
 import { SFX, clamp } from "../../shared/theme";
-import { Grain } from "./Grain";
+import { Grain } from "../../shared/components/Grain";
 import { ConstroiScene } from "./scenes/ConstroiScene";
 import { ContrarioScene } from "./scenes/ContrarioScene";
 import { EntendeScene } from "./scenes/EntendeScene";
@@ -21,21 +19,39 @@ import { ServicosScene } from "./scenes/ServicosScene";
 import { SeuJeitoScene } from "./scenes/SeuJeitoScene";
 import { BEAT, MUSICA, N, NARRACAO, SCENE, f } from "./timeline";
 
+// Gradient-only light leak: the WebGL lightLeak() shader failed to compile on this machine's GPU.
 const LightLeak: React.FC = () => {
   const frame = useCurrentFrame();
-  const { durationInFrames, fps, height, width } = useVideoConfig();
+  const { durationInFrames } = useVideoConfig();
+  const p = interpolate(frame, [0, durationInFrames - 1], [0, 1], clamp);
+  const strength = interpolate(p, [0, 0.25, 1], [0, 1, 0], clamp);
   return (
-    <Solid
-      width={width}
-      height={height}
-      premountFor={fps}
-      style={{ mixBlendMode: "screen", opacity: 0.55 }}
-      effects={[
-        lightLeak({
-          progress: interpolate(frame, [0, durationInFrames - 1], [0, 1], clamp),
-        }),
-      ]}
-    />
+    <AbsoluteFill style={{ mixBlendMode: "screen", opacity: 0.75 * strength, overflow: "hidden" }}>
+      <div
+        style={{
+          position: "absolute",
+          width: 1600,
+          height: 1600,
+          left: interpolate(p, [0, 1], [-900, 300]),
+          top: interpolate(p, [0, 1], [-500, 200]),
+          borderRadius: "50%",
+          background: "radial-gradient(circle, rgba(255,170,110,0.9), rgba(255,90,60,0.35) 35%, transparent 65%)",
+          filter: "blur(40px)",
+        }}
+      />
+      <div
+        style={{
+          position: "absolute",
+          width: 1400,
+          height: 1400,
+          right: interpolate(p, [0, 1], [-1000, 200]),
+          bottom: interpolate(p, [0, 1], [-400, 300]),
+          borderRadius: "50%",
+          background: "radial-gradient(circle, rgba(120,170,255,0.9), rgba(0,85,255,0.35) 40%, transparent 70%)",
+          filter: "blur(40px)",
+        }}
+      />
+    </AbsoluteFill>
   );
 };
 

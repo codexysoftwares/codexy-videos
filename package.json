@@ -37,6 +37,7 @@
     "musica": "node scripts/music.mjs",
     "narracao": "node scripts/split-narration.mjs",
     "render": "node scripts/render.mjs",
-    "sfx": "node scripts/synth-sfx.mjs"
+    "sfx": "node scripts/synth-sfx.mjs",
+    "tts:fala": "node scripts/tts-fala.mjs"
   }
 }

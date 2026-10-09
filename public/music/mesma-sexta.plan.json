@@ -1,0 +1,76 @@
+{
+  "positive_global_styles": [
+    "instrumental",
+    "modern",
+    "premium brand ad",
+    "tight mix",
+    "no vocals"
+  ],
+  "negative_global_styles": [
+    "vocals",
+    "lyrics",
+    "choir",
+    "cheesy",
+    "comedic",
+    "lo-fi",
+    "orchestral epic trailer"
+  ],
+  "sections": [
+    {
+      "section_name": "Chaos",
+      "positive_local_styles": [
+        "tense",
+        "anxious ticking hi-hats",
+        "pulsing low bass",
+        "accelerating rhythm",
+        "dissonant synth stabs",
+        "urban nightlife tension",
+        "building pressure",
+        "ends abruptly at its peak"
+      ],
+      "negative_local_styles": [
+        "calm",
+        "happy",
+        "resolution"
+      ],
+      "duration_ms": 11300,
+      "lines": []
+    },
+    {
+      "section_name": "Order",
+      "positive_local_styles": [
+        "starts sparse with a single soft chord for the first second, then the groove enters",
+        "warm confident groove",
+        "relaxed modern house beat",
+        "clean electric piano chords",
+        "smooth bass",
+        "organized and in control",
+        "Brazilian bar evening warmth",
+        "steady 110 bpm"
+      ],
+      "negative_local_styles": [
+        "tense",
+        "dissonant",
+        "aggressive"
+      ],
+      "duration_ms": 12700,
+      "lines": []
+    },
+    {
+      "section_name": "Resolve",
+      "positive_local_styles": [
+        "satisfying resolution",
+        "warm full chord",
+        "confident and elegant",
+        "slight lift",
+        "clean ending with short tail"
+      ],
+      "negative_local_styles": [
+        "tense",
+        "fade to silence too early"
+      ],
+      "duration_ms": 8000,
+      "lines": []
+    }
+  ]
+}

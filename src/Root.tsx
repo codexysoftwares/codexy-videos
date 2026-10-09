@@ -1,5 +1,7 @@
 import { Composition, Folder } from "remotion";
 import { CtaScene } from "./shared/CtaScene";
+import { MesmaSexta } from "./videos/mesma-sexta/MesmaSexta";
+import { DURATION as SEXTA_DURATION } from "./videos/mesma-sexta/timeline";
 import { Chatbot24h } from "./videos/chatbot-24h/Chatbot24h";
 import { ClosingScene } from "./videos/chatbot-24h/ClosingScene";
 import { PayoffScene } from "./videos/chatbot-24h/PayoffScene";
@@ -8,6 +10,14 @@ import { ComoTrabalhamos } from "./videos/como-trabalhamos/ComoTrabalhamos";
 import { GuaranteesScene } from "./videos/como-trabalhamos/GuaranteesScene";
 import { ObjectionScene } from "./videos/como-trabalhamos/ObjectionScene";
 import { ProcessScene } from "./videos/como-trabalhamos/ProcessScene";
+import { AntesDepois } from "./videos/antes-depois/AntesDepois";
+import { DURATION as AD_DURATION } from "./videos/antes-depois/timeline";
+import { CustoPlanilha } from "./videos/custo-planilha/CustoPlanilha";
+import { DURATION as LUZ_DURATION } from "./videos/ultima-luz/timeline";
+import { UltimaLuz } from "./videos/ultima-luz/UltimaLuz";
+import { DURATION as VIDA_DURATION } from "./videos/vida-de-um-pedido/timeline";
+import { VidaDeUmPedido } from "./videos/vida-de-um-pedido/VidaDeUmPedido";
+import { DURATION as CUSTO_DURATION } from "./videos/custo-planilha/timeline";
 import { ChatbotScene } from "./videos/dor-solucao/ChatbotScene";
 import { Manifesto } from "./videos/manifesto/Manifesto";
 import { DURATION } from "./videos/manifesto/timeline";
@@ -23,6 +33,26 @@ import { TurnScene } from "./videos/dor-solucao/TurnScene";
 export const RemotionRoot: React.FC = () => {
   return (
     <>
+      <Folder name="mesma-sexta">
+        <Composition id="mesma-sexta" component={MesmaSexta} durationInFrames={SEXTA_DURATION} fps={30} width={1080} height={1920} />
+      </Folder>
+
+      <Folder name="antes-depois">
+        <Composition id="antes-depois" component={AntesDepois} durationInFrames={AD_DURATION} fps={30} width={1080} height={1920} />
+      </Folder>
+
+      <Folder name="ultima-luz">
+        <Composition id="ultima-luz" component={UltimaLuz} durationInFrames={LUZ_DURATION} fps={30} width={1080} height={1920} />
+      </Folder>
+
+      <Folder name="vida-de-um-pedido">
+        <Composition id="vida-de-um-pedido" component={VidaDeUmPedido} durationInFrames={VIDA_DURATION} fps={30} width={1080} height={1920} />
+      </Folder>
+
+      <Folder name="custo-planilha">
+        <Composition id="custo-planilha" component={CustoPlanilha} durationInFrames={CUSTO_DURATION} fps={30} width={1080} height={1920} />
+      </Folder>
+
       <Folder name="manifesto">
         <Composition id="manifesto" component={Manifesto} durationInFrames={DURATION} fps={30} width={1080} height={1920} />
       </Folder>

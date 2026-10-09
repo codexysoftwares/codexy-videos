@@ -11,7 +11,7 @@ import {
 } from "remotion";
 import * as THREE from "three";
 import { C, EASE, MONO, SANS, clamp } from "../../../shared/theme";
-import { Caption } from "../Caption";
+import { Caption } from "../../../shared/components/Caption";
 import { BEAT, N, SCENE, f } from "../timeline";
 
 const L = (t: number) => f(t - SCENE.logo.from);
