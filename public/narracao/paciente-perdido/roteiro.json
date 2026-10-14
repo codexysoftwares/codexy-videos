@@ -1,0 +1,18 @@
+{
+  "voz": "ElevenLabs · Paulo - Expressive and Confident (Qrdut83w0Cr152Yb4Xn3) · eleven_multilingual_v2 · pt-BR",
+  "estilo": "Reels de anúncio para donos de clínica, ponto de vista do paciente: mandou mensagem à noite, ninguém respondeu, marcou no concorrente. Ritmo rápido (~21s). Gerado via API pelo npm run tts.",
+  "elevenlabs": {
+    "voice_id": "Qrdut83w0Cr152Yb4Xn3",
+    "model_id": "eleven_multilingual_v2",
+    "voice_settings": { "stability": 0.5, "similarity_boost": 0.8, "style": 0.35, "use_speaker_boost": true, "speed": 1.1 }
+  },
+  "falas": [
+    { "arquivo": "01-gancho.wav", "texto": "Esse paciente quase foi seu." },
+    { "arquivo": "02-mensagem.wav", "texto": "Mandou mensagem às dez da noite. Ninguém respondeu." },
+    { "arquivo": "03-concorrente.wav", "texto": "Marcou no concorrente... e você nem ficou sabendo." },
+    { "arquivo": "04-agora.wav", "texto": "Agora, a mesma mensagem." },
+    { "arquivo": "05-resposta.wav", "texto": "Resposta na hora. Horário direto na agenda. E a recepção só cuida do que precisa de gente." },
+    { "arquivo": "06-sistema.wav", "texto": "Funciona com o sistema que você já usa... ou com o nosso." },
+    { "arquivo": "07-cta.wav", "texto": "Diagnóstico gratuito. Chama a gente no WhatsApp.", "voice_settings": { "stability": 0.6, "style": 0.25, "speed": 1.02 } }
+  ]
+}

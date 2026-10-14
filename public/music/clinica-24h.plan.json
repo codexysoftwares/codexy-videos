@@ -1,0 +1,41 @@
+{
+  "positive_global_styles": ["instrumental", "modern", "premium brand ad", "clean mix", "no vocals"],
+  "negative_global_styles": ["vocals", "lyrics", "choir", "cheesy", "comedic", "lo-fi", "epic orchestral trailer", "aggressive"],
+  "sections": [
+    {
+      "section_name": "Night",
+      "positive_local_styles": ["lonely late night", "minimal", "soft ticking clock rhythm", "low pulsing synth", "subtle unease", "sparse muted piano notes", "slowly building"],
+      "negative_local_styles": ["drums", "happy", "loud"],
+      "duration_ms": 8600,
+      "lines": []
+    },
+    {
+      "section_name": "Morning",
+      "positive_local_styles": ["cold realization", "low drone", "tension rising", "ends abruptly"],
+      "negative_local_styles": ["drums", "happy", "melody"],
+      "duration_ms": 3700,
+      "lines": []
+    },
+    {
+      "section_name": "Turn",
+      "positive_local_styles": ["near silence", "single soft sustained pad", "gentle rising anticipation", "airy shimmer swelling at the very end"],
+      "negative_local_styles": ["drums", "bass", "loud"],
+      "duration_ms": 3100,
+      "lines": []
+    },
+    {
+      "section_name": "Flow",
+      "positive_local_styles": ["bright modern tech groove", "crisp light beat", "warm plucked synths", "flowing arpeggios", "confident and connected", "clean and optimistic", "steady 112 bpm"],
+      "negative_local_styles": ["tense", "dark", "dissonant"],
+      "duration_ms": 11500,
+      "lines": []
+    },
+    {
+      "section_name": "Resolve",
+      "positive_local_styles": ["satisfying resolution", "warm full chord", "elegant", "slight lift", "clean ending with short tail"],
+      "negative_local_styles": ["tense", "fade too early"],
+      "duration_ms": 7600,
+      "lines": []
+    }
+  ]
+}

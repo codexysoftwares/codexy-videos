@@ -11,3 +11,6 @@ public/narracao/*/_versoes/
 
 # Fotos de clientes ficam só na máquina de quem tem autorização.
 public/projetos/
+
+# Vídeos de banco são pesados: baixe de novo com `npm run broll` (ids em public/broll/<video>/creditos.json).
+public/broll/**/*.mp4

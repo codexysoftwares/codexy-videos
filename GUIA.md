@@ -7,6 +7,11 @@ as animações e a sincronia com a narração.
 
 Você não precisa saber programar para usar. Precisa saber **descrever bem o que quer**.
 
+> **Começando agora?** Depois de instalar (seção 2), rode `npm run broll -- restaurar` e abra o
+> **[PROMPTS.md](PROMPTS.md)**: lá estão prompts prontos para criar Reel, carrossel, post único,
+> o próximo Raio-X, ajustes, cronograma e legendas. O `CLAUDE.md` já ensina ao Claude a marca e as regras,
+> e o `ESTRATEGIA.md` explica a linha de conteúdo.
+
 ---
 
 ## 1. O que já existe

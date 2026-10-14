@@ -1,0 +1,34 @@
+{
+  "ia-phone-vibrate": {
+    "texto": "smartphone vibrating on a wooden nightstand, two short buzzes, close mic, realistic, no ringtone",
+    "duracao": 1.2
+  },
+  "ia-send-swoosh": {
+    "texto": "very short soft swoosh of a chat message being sent, subtle airy UI sound, no chime, no bell",
+    "duracao": 0.6
+  },
+  "ia-whip": {
+    "texto": "fast cinematic whip pan whoosh transition, clean, modern, short",
+    "duracao": 0.8
+  },
+  "ia-rewind": {
+    "texto": "fast tape rewind sound with a short pitch-down stop at the end, cinematic, modern",
+    "duracao": 1.4
+  },
+  "ia-impact": {
+    "texto": "deep soft cinematic impact hit with short sub boom, clean, premium, no metallic ring",
+    "duracao": 1.5
+  },
+  "ia-ui-pop": {
+    "texto": "tiny soft UI pop click, subtle, rounded, premium app interface, no chime, no bell",
+    "duracao": 0.5
+  },
+  "ia-typing": {
+    "texto": "quick light taps typing on a smartphone touchscreen, close, subtle, realistic",
+    "duracao": 1.2
+  },
+  "ia-ondas": {
+    "texto": "calm ocean waves gently washing on a sandy beach, distant seagulls, relaxing vacation ambience, no music",
+    "duracao": 6
+  }
+}

@@ -1,5 +1,24 @@
 import { Composition, Folder } from "remotion";
 import { CtaScene } from "./shared/CtaScene";
+import { DURATION as FERIAS_DURATION, Ferias47 } from "./videos/ferias-47/Ferias47";
+import { FeriasGancho, GANCHO_DURATION } from "./videos/ferias-47/Gancho";
+import { CINCO_SINAIS_SLIDES, CincoSinais } from "./estaticos/CincoSinais";
+import { COMO_NASCE_SLIDES, ComoNasce } from "./estaticos/ComoNasce";
+import { PostDelivery } from "./estaticos/PostDelivery";
+import { NAO_CONTRATE_SLIDES, NaoContrate } from "./estaticos/NaoContrate";
+import { OFICINA_SLIDES, OficinaConceito } from "./estaticos/OficinaConceito";
+import { QUANTO_CUSTA_SLIDES, QuantoCusta } from "./estaticos/QuantoCusta";
+import { DURATION as PLANILHA_DURATION, PlanilhaDia30 } from "./videos/planilha-dia-30/PlanilhaDia30";
+import { RAIO_X_PIZZARIA_SLIDES, RaioXPizzaria } from "./estaticos/RaioXPizzaria";
+import { RAIO_X_SALAO_SLIDES, RaioXSalao } from "./estaticos/raiox/RaioXSalao";
+import { MENSAGEM_2152_SLIDES, Mensagem2152 } from "./estaticos/Mensagem2152";
+import { PrintClinica } from "./estaticos/PrintClinica";
+import { Clinica24h } from "./videos/clinica-24h/Clinica24h";
+import { OlhosDoPaciente } from "./videos/olhos-do-paciente/OlhosDoPaciente";
+import { DURATION as OLHOS_DURATION } from "./videos/olhos-do-paciente/timeline";
+import { PacientePerdido } from "./videos/paciente-perdido/PacientePerdido";
+import { DURATION as PACIENTE_DURATION } from "./videos/paciente-perdido/timeline";
+import { DURATION as CLINICA_DURATION } from "./videos/clinica-24h/timeline";
 import { MesmaSexta } from "./videos/mesma-sexta/MesmaSexta";
 import { DURATION as SEXTA_DURATION } from "./videos/mesma-sexta/timeline";
 import { Chatbot24h } from "./videos/chatbot-24h/Chatbot24h";
@@ -33,6 +52,41 @@ import { TurnScene } from "./videos/dor-solucao/TurnScene";
 export const RemotionRoot: React.FC = () => {
   return (
     <>
+      {/* Static posts: 1 frame = 1 slide, 1080×1350. Render with npm run estatico -- <id> */}
+      <Folder name="estaticos">
+        <Composition id="carrossel-mensagem-2152" component={Mensagem2152} durationInFrames={MENSAGEM_2152_SLIDES} fps={1} width={1080} height={1350} />
+        <Composition id="post-print-clinica" component={PrintClinica} durationInFrames={1} fps={1} width={1080} height={1350} />
+        <Composition id="post-delivery-comissao" component={PostDelivery} durationInFrames={1} fps={1} width={1080} height={1350} />
+        <Composition id="carrossel-como-nasce" component={ComoNasce} durationInFrames={COMO_NASCE_SLIDES} fps={1} width={1080} height={1350} />
+        <Composition id="carrossel-raio-x-pizzaria" component={RaioXPizzaria} durationInFrames={RAIO_X_PIZZARIA_SLIDES} fps={1} width={1080} height={1350} />
+        <Composition id="carrossel-quanto-custa" component={QuantoCusta} durationInFrames={QUANTO_CUSTA_SLIDES} fps={1} width={1080} height={1350} />
+        <Composition id="carrossel-oficina-conceito" component={OficinaConceito} durationInFrames={OFICINA_SLIDES} fps={1} width={1080} height={1350} />
+        <Composition id="carrossel-nao-contrate" component={NaoContrate} durationInFrames={NAO_CONTRATE_SLIDES} fps={1} width={1080} height={1350} />
+        <Composition id="carrossel-raio-x-salao" component={RaioXSalao} durationInFrames={RAIO_X_SALAO_SLIDES} fps={1} width={1080} height={1350} />
+        <Composition id="carrossel-cinco-sinais" component={CincoSinais} durationInFrames={CINCO_SINAIS_SLIDES} fps={1} width={1080} height={1350} />
+      </Folder>
+
+      <Folder name="ferias-47">
+        <Composition id="ferias-47" component={Ferias47} durationInFrames={FERIAS_DURATION} fps={60} width={1080} height={1920} />
+        <Composition id="ferias-47-gancho" component={FeriasGancho} durationInFrames={GANCHO_DURATION} fps={60} width={1080} height={1920} />
+      </Folder>
+
+      <Folder name="planilha-dia-30">
+        <Composition id="planilha-dia-30" component={PlanilhaDia30} durationInFrames={PLANILHA_DURATION} fps={60} width={1080} height={1920} />
+      </Folder>
+
+      <Folder name="olhos-do-paciente">
+        <Composition id="olhos-do-paciente" component={OlhosDoPaciente} durationInFrames={OLHOS_DURATION} fps={60} width={1080} height={1920} />
+      </Folder>
+
+      <Folder name="paciente-perdido">
+        <Composition id="paciente-perdido" component={PacientePerdido} durationInFrames={PACIENTE_DURATION} fps={60} width={1080} height={1920} />
+      </Folder>
+
+      <Folder name="clinica-24h">
+        <Composition id="clinica-24h" component={Clinica24h} durationInFrames={CLINICA_DURATION} fps={30} width={1080} height={1920} />
+      </Folder>
+
       <Folder name="mesma-sexta">
         <Composition id="mesma-sexta" component={MesmaSexta} durationInFrames={SEXTA_DURATION} fps={30} width={1080} height={1920} />
       </Folder>

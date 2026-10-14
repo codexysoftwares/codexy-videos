@@ -1,0 +1,134 @@
+{
+  "destino": "../postagens",
+  "posts": [
+    {
+      "data": "2026-10-13",
+      "tipo": "reels",
+      "nome": "pelos-olhos-do-paciente",
+      "pilar": "Oferta",
+      "arquivos": [
+        "out/olhos-do-paciente/olhos-do-paciente.mp4"
+      ],
+      "legenda": "21:40. Dor de dente. Ela mandou mensagem pra duas clínicas.\n\nUma respondeu na hora e marcou. A outra só viu a mensagem às 8h da manhã, quando a paciente já tinha horário marcado no concorrente.\n\nA diferença não era uma recepcionista acordada de madrugada. Era um atendimento automático no WhatsApp, ligado na agenda.\n\nA Codexy cria esse atendimento sob medida pra sua clínica: responde na hora, marca na agenda e de manhã a equipe só abre o painel com tudo organizado. Já usa um sistema? A gente avalia e conecta.\n\nChama no WhatsApp (link na bio) e faça um diagnóstico gratuito.\n\n#clinica #clinicaodontologica #odontologia #esteticaavancada #fisioterapia #atendimentowhatsapp #gestaodeclinica #belohorizonte #bh #codexy",
+      "anuncio": "Título: Sua clínica responde às 22h?\nTexto principal: as 3 primeiras linhas da legenda + \"Faça um diagnóstico gratuito.\"\nBotão: Enviar mensagem\nCriativo extra para o mesmo anúncio: guardados/post-print-clinica.png"
+    },
+    {
+      "data": "2026-10-14",
+      "tipo": "carrossel",
+      "nome": "5-sinais",
+      "pilar": "Educação",
+      "arquivos": [
+        "out/estaticos/carrossel-cinco-sinais"
+      ],
+      "legenda": "Quantos desses você marcou? Comenta o número. 👇\n\nPlanilha que só uma pessoa entende, informação digitada duas vezes, cliente esperando resposta, número que não bate… não é falta de esforço da equipe. É falta de um sistema feito pro jeito que a sua empresa funciona.\n\nA Codexy cria sistemas, sites e atendimento no WhatsApp sob medida. Diagnóstico gratuito: link na bio.\n\n#gestaoempresarial #pequenasempresas #empreendedorismo #sistemas #automacao #bh #codexy"
+    },
+    {
+      "data": "2026-10-15",
+      "tipo": "estatico",
+      "nome": "r80-de-pedido",
+      "pilar": "Curiosidade",
+      "arquivos": [
+        "out/estaticos/post-delivery-comissao"
+      ],
+      "legenda": "R$ 80 de pedido. Quanto fica com você? 🧾\n\nComissão por pedido, taxa de pagamento… no fim do mês, isso vira um sócio que não lava prato. Com um site de pedidos próprio, o cliente pede direto de você, sem comissão por pedido.\n\nQuer fazer essa conta com os números do seu restaurante? Diagnóstico gratuito no WhatsApp (link na bio).\n\n#restaurante #delivery #gestaoderestaurante #bar #bh #codexy"
+    },
+    {
+      "data": "2026-10-16",
+      "tipo": "carrossel",
+      "nome": "como-nasce-um-sistema",
+      "pilar": "Bastidores",
+      "arquivos": [
+        "out/estaticos/carrossel-como-nasce"
+      ],
+      "legenda": "Sistema sob medida não começa no código. Começa entendendo como a sua empresa funciona. 👉\n\nDiagnóstico, desenho, construção em etapas e suporte depois da entrega: é assim que a Codexy trabalha. E o primeiro passo é de graça.\n\nChama no WhatsApp (link na bio).\n\n#softwaresobmedida #sistemas #automacao #empreendedorismo #bh #codexy"
+    },
+    {
+      "data": "2026-10-17",
+      "tipo": "carrossel",
+      "nome": "raio-x-1-salao",
+      "pilar": "Raio-X",
+      "arquivos": [
+        "out/estaticos/carrossel-raio-x-salao"
+      ],
+      "legenda": "O salão estava cheio. Mesmo assim, perdia uma cliente por dia. 🩻\n\nFizemos o raio-x de um salão (fictício, mas você conhece um igualzinho) e achamos 3 fraturas e 1 hemorragia. A pior não é quem falta: é quem não volta.\n\nSalva pra fazer o checklist do slide 7 no seu negócio. E comenta RAIO-X se quiser o exame do seu. 👇\n\nRaio-X #1 de uma série: todo sábado a gente desmonta o processo de um negócio.\n\n#salaodebeleza #barbearia #esteticaavancada #gestao #agendamento #empreendedorismo #bh #codexy"
+    },
+    {
+      "data": "2026-10-19",
+      "tipo": "reels",
+      "nome": "planilha-dia-30",
+      "pilar": "Curiosidade",
+      "arquivos": [
+        "out/planilha-dia-30/planilha-dia-30.mp4"
+      ],
+      "legenda": "Ela aguentou o que pôde. 💀\n\nSe a planilha da sua empresa tem aba \"FINAL_v2_AGORA_VAI\", talvez ela já tenha pedido demissão e ninguém percebeu.\n\nSua empresa cresceu. A planilha não. A Codexy cria sistemas sob medida pro jeito que a sua equipe trabalha. Diagnóstico gratuito: link na bio.\n\n#planilha #excel #financeiro #gestao #empreendedorismo #humor #bh #codexy",
+      "observacao": "Vídeo SEM áudio: escolha um áudio em alta no próprio Instagram antes de postar (algo dramático/engraçado)."
+    },
+    {
+      "data": "2026-10-20",
+      "tipo": "carrossel",
+      "nome": "quanto-custa",
+      "pilar": "Contra a maré",
+      "arquivos": [
+        "out/estaticos/carrossel-quanto-custa"
+      ],
+      "legenda": "A pergunta que toda software house foge: quanto custa? 💸\n\nNão tem preço de tabela, mas tem lógica: tamanho do problema, integrações, quem vai usar e o que vem primeiro. E dá pra começar pela parte que mais dói.\n\nQuer um número de verdade pro seu caso? Diagnóstico gratuito no WhatsApp (link na bio).\n\n#softwaresobmedida #sistemas #tecnologia #empreendedorismo #bh #codexy"
+    },
+    {
+      "data": "2026-10-21",
+      "tipo": "reels",
+      "nome": "ferias-47-ligacoes",
+      "pilar": "Oferta",
+      "arquivos": [
+        "out/ferias-47/ferias-47.mp4"
+      ],
+      "legenda": "Ele tirou 3 dias de folga. A empresa ligou 47 vezes. 📵\n\nSenha do banco, preço do cliente, onde está a nota… cada ligação era uma pergunta que só ele sabia responder. O problema não era a equipe. Era a empresa inteira morando na cabeça de uma pessoa só.\n\nQuando a informação mora num sistema, a equipe não precisa ligar. Ela encontra.\n\nSua empresa funciona sem você? Diagnóstico gratuito no WhatsApp (link na bio).\n\n#empreendedorismo #gestaoempresarial #donodenegocio #pequenasempresas #sistemas #automacao #bh #codexy",
+      "anuncio": "Título: Sua empresa funciona sem você?\nTexto principal: Ele tirou 3 dias de folga. A empresa ligou 47 vezes. Quando a informação mora num sistema, a equipe não precisa ligar: ela encontra. Faça um diagnóstico gratuito.\nBotão: Enviar mensagem"
+    },
+    {
+      "data": "2026-10-22",
+      "tipo": "carrossel",
+      "nome": "projeto-conceito-oficina",
+      "pilar": "Bastidores",
+      "arquivos": [
+        "out/estaticos/carrossel-oficina-conceito"
+      ],
+      "legenda": "Se a gente fosse construir o sistema de uma oficina mecânica, seria assim. 🔧\n\nOS digital com fotos, orçamento aprovado no WhatsApp, quadro do pátio, estoque que avisa quando acaba, cliente acompanhando o carro e o painel do dono. Projeto conceito, oficina fictícia.\n\nSeu negócio não é uma oficina? A lógica é a mesma. Diagnóstico gratuito: link na bio.\n\n#oficinamecanica #autocenter #gestao #sistemas #softwaresobmedida #bh #codexy"
+    },
+    {
+      "data": "2026-10-23",
+      "tipo": "carrossel",
+      "nome": "nao-contrate-ainda",
+      "pilar": "Contra a maré",
+      "arquivos": [
+        "out/estaticos/carrossel-nao-contrate"
+      ],
+      "legenda": "Conselho estranho vindo de quem vende sistema. 👀\n\nSe você ainda não sabe o problema, se o processo muda toda semana ou se um sistema pronto resolve: não contrate sob medida. Ainda.\n\nAgora, se a mesma informação é digitada em vários lugares e só uma pessoa sabe como tudo funciona… aí a conversa é outra. Diagnóstico gratuito: link na bio.\n\n#gestao #empreendedorismo #sistemas #tecnologia #bh #codexy"
+    },
+    {
+      "data": "2026-10-24",
+      "tipo": "carrossel",
+      "nome": "raio-x-2-pizzaria",
+      "pilar": "Raio-X",
+      "arquivos": [
+        "out/estaticos/carrossel-raio-x-pizzaria"
+      ],
+      "legenda": "14 passos pra entregar uma pizza. Dava pra fazer com 4. 🍕\n\nDesmontamos o pedido de uma pizzaria (fictícia, mas você conhece uma igualzinha) e riscamos tudo que o sistema faz sozinho.\n\nQual negócio você quer ver no Raio-X #3? Comenta aqui. 👇\n\n#gestao #pizzaria #delivery #processos #automacao #bh #codexy"
+    }
+  ],
+  "guardados": [
+    {
+      "nome": "post-print-clinica",
+      "arquivos": [
+        "out/estaticos/post-print-clinica"
+      ],
+      "uso": "Criativo extra do anúncio da clínica (só no tráfego pago)."
+    },
+    {
+      "nome": "carrossel-mensagem-2152",
+      "arquivos": [
+        "out/estaticos/carrossel-mensagem-2152"
+      ],
+      "uso": "Postar daqui a ~3 semanas (mesma premissa do reel de 13/10)."
+    }
+  ]
+}

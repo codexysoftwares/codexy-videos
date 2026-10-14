@@ -1,0 +1,20 @@
+{
+  "voz": "ElevenLabs · Paulo - Expressive and Confident (Qrdut83w0Cr152Yb4Xn3) · eleven_multilingual_v2 · pt-BR",
+  "estilo": "Reels para donos de clínica: história contínua do ponto de vista do paciente (noite → manhã), revelação de que o concorrente usa atendimento automático, painel da manhã e CTA. Ritmo rápido, tenso no meio. Gerado via API pelo npm run tts.",
+  "elevenlabs": {
+    "voice_id": "Qrdut83w0Cr152Yb4Xn3",
+    "model_id": "eleven_multilingual_v2",
+    "voice_settings": { "stability": 0.45, "similarity_boost": 0.8, "style": 0.42, "use_speaker_boost": true, "speed": 1.12 }
+  },
+  "falas": [
+    { "arquivo": "01-gancho.wav", "texto": "Você nunca viu sua clínica pelos olhos do paciente." },
+    { "arquivo": "02-dor.wav", "texto": "Nove e quarenta da noite. Dor de dente." },
+    { "arquivo": "03-busca.wav", "texto": "Ela procura, acha duas clínicas... e manda mensagem pras duas." },
+    { "arquivo": "04-corrida.wav", "texto": "Uma responde na hora. A outra... nem viu." },
+    { "arquivo": "05-manha.wav", "texto": "Oito da manhã, sua recepção abre o WhatsApp." },
+    { "arquivo": "06-soco.wav", "texto": "Ela já está sentada na cadeira da outra." },
+    { "arquivo": "07-revelacao.wav", "texto": "Quem respondeu? Um atendimento automático, ligado na agenda." },
+    { "arquivo": "08-painel.wav", "texto": "E às oito, a equipe da outra só abre o painel: tudo que chegou de noite, respondido, marcado e organizado." },
+    { "arquivo": "09-cta.wav", "texto": "Quer isso funcionando na sua clínica? Diagnóstico gratuito no WhatsApp.", "voice_settings": { "stability": 0.6, "style": 0.28, "speed": 1.04 } }
+  ]
+}

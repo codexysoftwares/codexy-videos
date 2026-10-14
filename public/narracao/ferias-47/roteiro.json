@@ -1,0 +1,17 @@
+{
+  "voz": "ElevenLabs · Paulo - Expressive and Confident (Qrdut83w0Cr152Yb4Xn3) · eleven_multilingual_v2 · pt-BR",
+  "estilo": "Reels para donos de empresa (qualquer nicho): o dono tira férias e a empresa liga 47 vezes; a empresa mora na cabeça dele; sistema; mesma praia, zero ligações. Ritmo firme, pausa antes do fecho. Gerado via API pelo npm run tts.",
+  "elevenlabs": {
+    "voice_id": "Qrdut83w0Cr152Yb4Xn3",
+    "model_id": "eleven_multilingual_v2",
+    "voice_settings": { "stability": 0.47, "similarity_boost": 0.8, "style": 0.4, "use_speaker_boost": true, "speed": 1.08 }
+  },
+  "falas": [
+    { "arquivo": "01-gancho.wav", "texto": "Ele tirou três dias de folga. A empresa ligou quarenta e sete vezes." },
+    { "arquivo": "02-perguntas.wav", "texto": "E cada ligação era uma pergunta que só ele sabia responder. A senha. O preço. Onde estava a nota." },
+    { "arquivo": "03-virada.wav", "texto": "O problema não era a equipe. Era a empresa inteira morando na cabeça de uma pessoa só." },
+    { "arquivo": "04-sistema.wav", "texto": "Quando a informação mora num sistema, a equipe não precisa ligar. Ela encontra." },
+    { "arquivo": "05-fecho.wav", "texto": "Próximas férias. Mesma praia. Zero ligações." },
+    { "arquivo": "06-cta.wav", "texto": "Sua empresa funciona sem você? Diagnóstico gratuito no WhatsApp.", "voice_settings": { "stability": 0.6, "style": 0.28, "speed": 1.02 } }
+  ]
+}

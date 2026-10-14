@@ -11,6 +11,7 @@
     "@remotion/effects": "4.0.533",
     "@remotion/google-fonts": "4.0.533",
     "@remotion/media": "4.0.533",
+    "@remotion/motion-blur": "4.0.533",
     "@remotion/three": "4.0.533",
     "@remotion/transitions": "4.0.533",
     "react": "19.2.3",
@@ -38,6 +39,10 @@
     "narracao": "node scripts/split-narration.mjs",
     "render": "node scripts/render.mjs",
     "sfx": "node scripts/synth-sfx.mjs",
-    "tts:fala": "node scripts/tts-fala.mjs"
+    "tts:fala": "node scripts/tts-fala.mjs",
+    "sfx:ia": "node scripts/sfx-ia.mjs",
+    "broll": "node scripts/broll.mjs",
+    "estatico": "node scripts/estaticos.mjs",
+    "organizar": "node scripts/organizar.mjs"
   }
 }

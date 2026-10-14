@@ -1,0 +1,358 @@
+{
+  "falas": [
+    {
+      "arquivo": "01-gancho.wav",
+      "de": 0,
+      "ate": 1.649,
+      "palavras": [
+        {
+          "palavra": "Esse",
+          "de": 0,
+          "ate": 0.232
+        },
+        {
+          "palavra": "paciente",
+          "de": 0.29,
+          "ate": 0.72
+        },
+        {
+          "palavra": "quase",
+          "de": 0.766,
+          "ate": 0.987
+        },
+        {
+          "palavra": "foi",
+          "de": 1.045,
+          "ate": 1.196
+        },
+        {
+          "palavra": "seu.",
+          "de": 1.277,
+          "ate": 1.649
+        }
+      ]
+    },
+    {
+      "arquivo": "02-mensagem.wav",
+      "de": 1.788,
+      "ate": 4.981,
+      "palavras": [
+        {
+          "palavra": "Mandou",
+          "de": 1.788,
+          "ate": 2.078
+        },
+        {
+          "palavra": "mensagem",
+          "de": 2.125,
+          "ate": 2.659
+        },
+        {
+          "palavra": "às",
+          "de": 2.728,
+          "ate": 2.891
+        },
+        {
+          "palavra": "dez",
+          "de": 2.995,
+          "ate": 3.216
+        },
+        {
+          "palavra": "da",
+          "de": 3.274,
+          "ate": 3.355
+        },
+        {
+          "palavra": "noite.",
+          "de": 3.413,
+          "ate": 3.878
+        },
+        {
+          "palavra": "Ninguém",
+          "de": 4.017,
+          "ate": 4.307
+        },
+        {
+          "palavra": "respondeu.",
+          "de": 4.342,
+          "ate": 4.981
+        }
+      ]
+    },
+    {
+      "arquivo": "03-concorrente.wav",
+      "de": 5.143,
+      "ate": 8.011,
+      "palavras": [
+        {
+          "palavra": "Marcou",
+          "de": 5.143,
+          "ate": 5.503
+        },
+        {
+          "palavra": "no",
+          "de": 5.55,
+          "ate": 5.619
+        },
+        {
+          "palavra": "concorrente...",
+          "de": 5.677,
+          "ate": 6.478
+        },
+        {
+          "palavra": "e",
+          "de": 6.548,
+          "ate": 6.653
+        },
+        {
+          "palavra": "você",
+          "de": 6.711,
+          "ate": 6.943
+        },
+        {
+          "palavra": "nem",
+          "de": 7.024,
+          "ate": 7.129
+        },
+        {
+          "palavra": "ficou",
+          "de": 7.163,
+          "ate": 7.419
+        },
+        {
+          "palavra": "sabendo.",
+          "de": 7.465,
+          "ate": 8.011
+        }
+      ]
+    },
+    {
+      "arquivo": "04-agora.wav",
+      "de": 8.15,
+      "ate": 9.996,
+      "palavras": [
+        {
+          "palavra": "Agora,",
+          "de": 8.15,
+          "ate": 8.696
+        },
+        {
+          "palavra": "a",
+          "de": 8.835,
+          "ate": 8.905
+        },
+        {
+          "palavra": "mesma",
+          "de": 8.986,
+          "ate": 9.3
+        },
+        {
+          "palavra": "mensagem.",
+          "de": 9.334,
+          "ate": 9.996
+        }
+      ]
+    },
+    {
+      "arquivo": "05-resposta.wav",
+      "de": 10.112,
+      "ate": 15.941,
+      "palavras": [
+        {
+          "palavra": "Resposta",
+          "de": 10.112,
+          "ate": 10.623
+        },
+        {
+          "palavra": "na",
+          "de": 10.67,
+          "ate": 10.739
+        },
+        {
+          "palavra": "hora.",
+          "de": 10.797,
+          "ate": 11.192
+        },
+        {
+          "palavra": "Horário",
+          "de": 11.297,
+          "ate": 11.668
+        },
+        {
+          "palavra": "direto",
+          "de": 11.714,
+          "ate": 12.156
+        },
+        {
+          "palavra": "na",
+          "de": 12.214,
+          "ate": 12.33
+        },
+        {
+          "palavra": "agenda.",
+          "de": 12.353,
+          "ate": 12.968
+        },
+        {
+          "palavra": "E",
+          "de": 13.073,
+          "ate": 13.177
+        },
+        {
+          "palavra": "a",
+          "de": 13.235,
+          "ate": 13.259
+        },
+        {
+          "palavra": "recepção",
+          "de": 13.317,
+          "ate": 13.955
+        },
+        {
+          "palavra": "só",
+          "de": 13.99,
+          "ate": 14.141
+        },
+        {
+          "palavra": "cuida",
+          "de": 14.199,
+          "ate": 14.454
+        },
+        {
+          "palavra": "do",
+          "de": 14.501,
+          "ate": 14.571
+        },
+        {
+          "palavra": "que",
+          "de": 14.629,
+          "ate": 14.722
+        },
+        {
+          "palavra": "precisa",
+          "de": 14.78,
+          "ate": 15.221
+        },
+        {
+          "palavra": "de",
+          "de": 15.279,
+          "ate": 15.372
+        },
+        {
+          "palavra": "gente.",
+          "de": 15.418,
+          "ate": 15.941
+        }
+      ]
+    },
+    {
+      "arquivo": "06-sistema.wav",
+      "de": 16.057,
+      "ate": 19.226,
+      "palavras": [
+        {
+          "palavra": "Funciona",
+          "de": 16.057,
+          "ate": 16.545
+        },
+        {
+          "palavra": "com",
+          "de": 16.591,
+          "ate": 16.719
+        },
+        {
+          "palavra": "o",
+          "de": 16.742,
+          "ate": 16.765
+        },
+        {
+          "palavra": "sistema",
+          "de": 16.8,
+          "ate": 17.195
+        },
+        {
+          "palavra": "que",
+          "de": 17.241,
+          "ate": 17.311
+        },
+        {
+          "palavra": "você",
+          "de": 17.357,
+          "ate": 17.566
+        },
+        {
+          "palavra": "já",
+          "de": 17.671,
+          "ate": 17.764
+        },
+        {
+          "palavra": "usa...",
+          "de": 17.822,
+          "ate": 18.216
+        },
+        {
+          "palavra": "ou",
+          "de": 18.332,
+          "ate": 18.483
+        },
+        {
+          "palavra": "com",
+          "de": 18.541,
+          "ate": 18.692
+        },
+        {
+          "palavra": "o",
+          "de": 18.716,
+          "ate": 18.739
+        },
+        {
+          "palavra": "nosso.",
+          "de": 18.797,
+          "ate": 19.226
+        }
+      ]
+    },
+    {
+      "arquivo": "07-cta.wav",
+      "de": 19.389,
+      "ate": 22.524,
+      "palavras": [
+        {
+          "palavra": "Diagnóstico",
+          "de": 19.389,
+          "ate": 20.074
+        },
+        {
+          "palavra": "gratuito.",
+          "de": 20.132,
+          "ate": 20.771
+        },
+        {
+          "palavra": "Chama",
+          "de": 20.91,
+          "ate": 21.189
+        },
+        {
+          "palavra": "a",
+          "de": 21.212,
+          "ate": 21.235
+        },
+        {
+          "palavra": "gente",
+          "de": 21.281,
+          "ate": 21.548
+        },
+        {
+          "palavra": "no",
+          "de": 21.606,
+          "ate": 21.665
+        },
+        {
+          "palavra": "WhatsApp.",
+          "de": 21.688,
+          "ate": 22.524
+        }
+      ]
+    }
+  ]
+}

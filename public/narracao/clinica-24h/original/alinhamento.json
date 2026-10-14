@@ -1,0 +1,468 @@
+{
+  "falas": [
+    {
+      "arquivo": "01-gancho.wav",
+      "de": 0,
+      "ate": 2.937,
+      "palavras": [
+        {
+          "palavra": "Sua",
+          "de": 0,
+          "ate": 0.244
+        },
+        {
+          "palavra": "clínica",
+          "de": 0.29,
+          "ate": 0.662
+        },
+        {
+          "palavra": "fecha",
+          "de": 0.731,
+          "ate": 1.022
+        },
+        {
+          "palavra": "às",
+          "de": 1.045,
+          "ate": 1.103
+        },
+        {
+          "palavra": "seis.",
+          "de": 1.138,
+          "ate": 1.649
+        },
+        {
+          "palavra": "O",
+          "de": 1.776,
+          "ate": 1.811
+        },
+        {
+          "palavra": "WhatsApp,",
+          "de": 1.881,
+          "ate": 2.519
+        },
+        {
+          "palavra": "não.",
+          "de": 2.554,
+          "ate": 2.937
+        }
+      ]
+    },
+    {
+      "arquivo": "02-noite.wav",
+      "de": 3.053,
+      "ate": 8.371,
+      "palavras": [
+        {
+          "palavra": "Pedido",
+          "de": 3.053,
+          "ate": 3.413
+        },
+        {
+          "palavra": "de",
+          "de": 3.46,
+          "ate": 3.518
+        },
+        {
+          "palavra": "horário,",
+          "de": 3.541,
+          "ate": 4.122
+        },
+        {
+          "palavra": "dúvida",
+          "de": 4.249,
+          "ate": 4.551
+        },
+        {
+          "palavra": "de",
+          "de": 4.609,
+          "ate": 4.679
+        },
+        {
+          "palavra": "preço,",
+          "de": 4.748,
+          "ate": 5.375
+        },
+        {
+          "palavra": "remarcação...",
+          "de": 5.538,
+          "ate": 6.525
+        },
+        {
+          "palavra": "a",
+          "de": 6.664,
+          "ate": 6.722
+        },
+        {
+          "palavra": "noite",
+          "de": 6.803,
+          "ate": 7.082
+        },
+        {
+          "palavra": "toda",
+          "de": 7.152,
+          "ate": 7.442
+        },
+        {
+          "palavra": "sem",
+          "de": 7.488,
+          "ate": 7.639
+        },
+        {
+          "palavra": "resposta.",
+          "de": 7.686,
+          "ate": 8.371
+        }
+      ]
+    },
+    {
+      "arquivo": "03-manha.wav",
+      "de": 8.51,
+      "ate": 11.749,
+      "palavras": [
+        {
+          "palavra": "De",
+          "de": 8.51,
+          "ate": 8.615
+        },
+        {
+          "palavra": "manhã,",
+          "de": 8.684,
+          "ate": 9.021
+        },
+        {
+          "palavra": "parte",
+          "de": 9.067,
+          "ate": 9.358
+        },
+        {
+          "palavra": "desses",
+          "de": 9.404,
+          "ate": 9.636
+        },
+        {
+          "palavra": "pacientes",
+          "de": 9.694,
+          "ate": 10.24
+        },
+        {
+          "palavra": "já",
+          "de": 10.286,
+          "ate": 10.379
+        },
+        {
+          "palavra": "marcou",
+          "de": 10.437,
+          "ate": 10.797
+        },
+        {
+          "palavra": "em",
+          "de": 10.832,
+          "ate": 10.902
+        },
+        {
+          "palavra": "outro",
+          "de": 10.983,
+          "ate": 11.238
+        },
+        {
+          "palavra": "lugar.",
+          "de": 11.273,
+          "ate": 11.749
+        }
+      ]
+    },
+    {
+      "arquivo": "04-virada.wav",
+      "de": 11.889,
+      "ate": 14.222,
+      "palavras": [
+        {
+          "palavra": "Agora,",
+          "de": 11.889,
+          "ate": 12.388
+        },
+        {
+          "palavra": "com",
+          "de": 12.434,
+          "ate": 12.62
+        },
+        {
+          "palavra": "um",
+          "de": 12.643,
+          "ate": 12.701
+        },
+        {
+          "palavra": "atendente",
+          "de": 12.771,
+          "ate": 13.41
+        },
+        {
+          "palavra": "que",
+          "de": 13.468,
+          "ate": 13.537
+        },
+        {
+          "palavra": "não",
+          "de": 13.595,
+          "ate": 13.723
+        },
+        {
+          "palavra": "dorme.",
+          "de": 13.769,
+          "ate": 14.222
+        }
+      ]
+    },
+    {
+      "arquivo": "05-ordem.wav",
+      "de": 14.362,
+      "ate": 20.445,
+      "palavras": [
+        {
+          "palavra": "Ele",
+          "de": 14.362,
+          "ate": 14.559
+        },
+        {
+          "palavra": "responde",
+          "de": 14.594,
+          "ate": 15.093
+        },
+        {
+          "palavra": "na",
+          "de": 15.151,
+          "ate": 15.244
+        },
+        {
+          "palavra": "hora,",
+          "de": 15.313,
+          "ate": 15.743
+        },
+        {
+          "palavra": "coloca",
+          "de": 15.859,
+          "ate": 16.196
+        },
+        {
+          "palavra": "o",
+          "de": 16.219,
+          "ate": 16.242
+        },
+        {
+          "palavra": "paciente",
+          "de": 16.289,
+          "ate": 16.718
+        },
+        {
+          "palavra": "na",
+          "de": 16.765,
+          "ate": 16.846
+        },
+        {
+          "palavra": "agenda...",
+          "de": 16.869,
+          "ate": 17.496
+        },
+        {
+          "palavra": "e",
+          "de": 17.612,
+          "ate": 17.705
+        },
+        {
+          "palavra": "separa",
+          "de": 17.763,
+          "ate": 18.181
+        },
+        {
+          "palavra": "pra",
+          "de": 18.216,
+          "ate": 18.332
+        },
+        {
+          "palavra": "recepção",
+          "de": 18.379,
+          "ate": 19.005
+        },
+        {
+          "palavra": "o",
+          "de": 19.087,
+          "ate": 19.145
+        },
+        {
+          "palavra": "que",
+          "de": 19.203,
+          "ate": 19.296
+        },
+        {
+          "palavra": "precisa",
+          "de": 19.342,
+          "ate": 19.807
+        },
+        {
+          "palavra": "de",
+          "de": 19.865,
+          "ate": 19.946
+        },
+        {
+          "palavra": "gente.",
+          "de": 19.992,
+          "ate": 20.445
+        }
+      ]
+    },
+    {
+      "arquivo": "06-objecao.wav",
+      "de": 20.608,
+      "ate": 25.356,
+      "palavras": [
+        {
+          "palavra": "Já",
+          "de": 20.608,
+          "ate": 20.77
+        },
+        {
+          "palavra": "usa",
+          "de": 20.828,
+          "ate": 20.968
+        },
+        {
+          "palavra": "um",
+          "de": 20.991,
+          "ate": 21.037
+        },
+        {
+          "palavra": "sistema?",
+          "de": 21.095,
+          "ate": 21.687
+        },
+        {
+          "palavra": "A",
+          "de": 21.827,
+          "ate": 21.896
+        },
+        {
+          "palavra": "gente",
+          "de": 21.978,
+          "ate": 22.198
+        },
+        {
+          "palavra": "avalia",
+          "de": 22.233,
+          "ate": 22.709
+        },
+        {
+          "palavra": "e",
+          "de": 22.779,
+          "ate": 22.86
+        },
+        {
+          "palavra": "conecta.",
+          "de": 22.93,
+          "ate": 23.568
+        },
+        {
+          "palavra": "Não",
+          "de": 23.707,
+          "ate": 23.905
+        },
+        {
+          "palavra": "usa?",
+          "de": 23.928,
+          "ate": 24.311
+        },
+        {
+          "palavra": "Entrega",
+          "de": 24.451,
+          "ate": 24.915
+        },
+        {
+          "palavra": "junto.",
+          "de": 24.973,
+          "ate": 25.356
+        }
+      ]
+    },
+    {
+      "arquivo": "07-cta.wav",
+      "de": 25.472,
+      "ate": 31.115,
+      "palavras": [
+        {
+          "palavra": "Atendimento",
+          "de": 25.472,
+          "ate": 26.192
+        },
+        {
+          "palavra": "vinte",
+          "de": 26.285,
+          "ate": 26.587
+        },
+        {
+          "palavra": "e",
+          "de": 26.61,
+          "ate": 26.633
+        },
+        {
+          "palavra": "quatro",
+          "de": 26.691,
+          "ate": 27.074
+        },
+        {
+          "palavra": "horas,",
+          "de": 27.098,
+          "ate": 27.539
+        },
+        {
+          "palavra": "sob",
+          "de": 27.701,
+          "ate": 27.945
+        },
+        {
+          "palavra": "medida",
+          "de": 28.061,
+          "ate": 28.433
+        },
+        {
+          "palavra": "pra",
+          "de": 28.479,
+          "ate": 28.607
+        },
+        {
+          "palavra": "sua",
+          "de": 28.653,
+          "ate": 28.851
+        },
+        {
+          "palavra": "clínica.",
+          "de": 28.897,
+          "ate": 29.443
+        },
+        {
+          "palavra": "Chama",
+          "de": 29.582,
+          "ate": 29.884
+        },
+        {
+          "palavra": "a",
+          "de": 29.907,
+          "ate": 29.93
+        },
+        {
+          "palavra": "gente",
+          "de": 29.965,
+          "ate": 30.221
+        },
+        {
+          "palavra": "no",
+          "de": 30.267,
+          "ate": 30.325
+        },
+        {
+          "palavra": "WhatsApp.",
+          "de": 30.348,
+          "ate": 31.115
+        }
+      ]
+    }
+  ]
+}

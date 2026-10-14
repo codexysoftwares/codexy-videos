@@ -1,0 +1,465 @@
+{
+  "01-gancho.wav": [
+    {
+      "palavra": "Você",
+      "de": 0,
+      "ate": 0.244
+    },
+    {
+      "palavra": "nunca",
+      "de": 0.29,
+      "ate": 0.488
+    },
+    {
+      "palavra": "viu",
+      "de": 0.534,
+      "ate": 0.65
+    },
+    {
+      "palavra": "sua",
+      "de": 0.697,
+      "ate": 0.836
+    },
+    {
+      "palavra": "clínica",
+      "de": 0.894,
+      "ate": 1.242
+    },
+    {
+      "palavra": "pelos",
+      "de": 1.289,
+      "ate": 1.544
+    },
+    {
+      "palavra": "olhos",
+      "de": 1.614,
+      "ate": 1.811
+    },
+    {
+      "palavra": "do",
+      "de": 1.846,
+      "ate": 1.904
+    },
+    {
+      "palavra": "paciente.",
+      "de": 1.95,
+      "ate": 2.635
+    }
+  ],
+  "02-dor.wav": [
+    {
+      "palavra": "Nove",
+      "de": 0.076,
+      "ate": 0.436
+    },
+    {
+      "palavra": "e",
+      "de": 0.46,
+      "ate": 0.494
+    },
+    {
+      "palavra": "quarenta",
+      "de": 0.541,
+      "ate": 0.889
+    },
+    {
+      "palavra": "da",
+      "de": 0.936,
+      "ate": 1.005
+    },
+    {
+      "palavra": "noite.",
+      "de": 1.052,
+      "ate": 1.446
+    },
+    {
+      "palavra": "Dor",
+      "de": 1.586,
+      "ate": 1.771
+    },
+    {
+      "palavra": "de",
+      "de": 1.83,
+      "ate": 1.888
+    },
+    {
+      "palavra": "dente.",
+      "de": 1.957,
+      "ate": 2.433
+    }
+  ],
+  "03-busca.wav": [
+    {
+      "palavra": "Ela",
+      "de": 0.053,
+      "ate": 0.25
+    },
+    {
+      "palavra": "procura,",
+      "de": 0.296,
+      "ate": 0.888
+    },
+    {
+      "palavra": "acha",
+      "de": 1.027,
+      "ate": 1.33
+    },
+    {
+      "palavra": "duas",
+      "de": 1.375,
+      "ate": 1.607
+    },
+    {
+      "palavra": "clínicas...",
+      "de": 1.654,
+      "ate": 2.351
+    },
+    {
+      "palavra": "e",
+      "de": 2.397,
+      "ate": 2.502
+    },
+    {
+      "palavra": "manda",
+      "de": 2.559,
+      "ate": 2.769
+    },
+    {
+      "palavra": "mensagem",
+      "de": 2.815,
+      "ate": 3.244
+    },
+    {
+      "palavra": "pras",
+      "de": 3.279,
+      "ate": 3.442
+    },
+    {
+      "palavra": "duas.",
+      "de": 3.488,
+      "ate": 3.919
+    }
+  ],
+  "04-corrida.wav": [
+    {
+      "palavra": "Uma",
+      "de": 0.069,
+      "ate": 0.268
+    },
+    {
+      "palavra": "responde",
+      "de": 0.313,
+      "ate": 0.766
+    },
+    {
+      "palavra": "na",
+      "de": 0.824,
+      "ate": 0.918
+    },
+    {
+      "palavra": "hora.",
+      "de": 0.963,
+      "ate": 1.335
+    },
+    {
+      "palavra": "A",
+      "de": 1.474,
+      "ate": 1.556
+    },
+    {
+      "palavra": "outra...",
+      "de": 1.66,
+      "ate": 2.124
+    },
+    {
+      "palavra": "nem",
+      "de": 2.275,
+      "ate": 2.449
+    },
+    {
+      "palavra": "viu.",
+      "de": 2.508,
+      "ate": 2.787
+    }
+  ],
+  "05-manha.wav": [
+    {
+      "palavra": "Oito",
+      "de": 0.058,
+      "ate": 0.348
+    },
+    {
+      "palavra": "da",
+      "de": 0.395,
+      "ate": 0.464
+    },
+    {
+      "palavra": "manhã,",
+      "de": 0.511,
+      "ate": 0.813
+    },
+    {
+      "palavra": "sua",
+      "de": 0.836,
+      "ate": 0.998
+    },
+    {
+      "palavra": "recepção",
+      "de": 1.045,
+      "ate": 1.613
+    },
+    {
+      "palavra": "abre",
+      "de": 1.683,
+      "ate": 1.939
+    },
+    {
+      "palavra": "o",
+      "de": 1.962,
+      "ate": 1.985
+    },
+    {
+      "palavra": "WhatsApp.",
+      "de": 2.008,
+      "ate": 2.589
+    }
+  ],
+  "06-soco.wav": [
+    {
+      "palavra": "Ela",
+      "de": 0.011,
+      "ate": 0.15
+    },
+    {
+      "palavra": "já",
+      "de": 0.208,
+      "ate": 0.301
+    },
+    {
+      "palavra": "está",
+      "de": 0.348,
+      "ate": 0.534
+    },
+    {
+      "palavra": "sentada",
+      "de": 0.591,
+      "ate": 1.021
+    },
+    {
+      "palavra": "na",
+      "de": 1.067,
+      "ate": 1.137
+    },
+    {
+      "palavra": "cadeira",
+      "de": 1.184,
+      "ate": 1.543
+    },
+    {
+      "palavra": "da",
+      "de": 1.591,
+      "ate": 1.671
+    },
+    {
+      "palavra": "outra.",
+      "de": 1.742,
+      "ate": 2.101
+    }
+  ],
+  "07-revelacao.wav": [
+    {
+      "palavra": "Quem",
+      "de": 0.058,
+      "ate": 0.209
+    },
+    {
+      "palavra": "respondeu?",
+      "de": 0.255,
+      "ate": 0.847
+    },
+    {
+      "palavra": "Um",
+      "de": 0.987,
+      "ate": 1.114
+    },
+    {
+      "palavra": "atendimento",
+      "de": 1.138,
+      "ate": 1.648
+    },
+    {
+      "palavra": "automático,",
+      "de": 1.672,
+      "ate": 2.345
+    },
+    {
+      "palavra": "ligado",
+      "de": 2.426,
+      "ate": 2.786
+    },
+    {
+      "palavra": "na",
+      "de": 2.833,
+      "ate": 2.914
+    },
+    {
+      "palavra": "agenda.",
+      "de": 2.937,
+      "ate": 3.471
+    }
+  ],
+  "08-painel.wav": [
+    {
+      "palavra": "E",
+      "de": 0.052,
+      "ate": 0.156
+    },
+    {
+      "palavra": "às",
+      "de": 0.214,
+      "ate": 0.307
+    },
+    {
+      "palavra": "oito,",
+      "de": 0.412,
+      "ate": 0.679
+    },
+    {
+      "palavra": "a",
+      "de": 0.725,
+      "ate": 0.783
+    },
+    {
+      "palavra": "equipe",
+      "de": 0.829,
+      "ate": 1.143
+    },
+    {
+      "palavra": "da",
+      "de": 1.178,
+      "ate": 1.259
+    },
+    {
+      "palavra": "outra",
+      "de": 1.329,
+      "ate": 1.561
+    },
+    {
+      "palavra": "só",
+      "de": 1.607,
+      "ate": 1.793
+    },
+    {
+      "palavra": "abre",
+      "de": 1.84,
+      "ate": 2.014
+    },
+    {
+      "palavra": "o",
+      "de": 2.037,
+      "ate": 2.06
+    },
+    {
+      "palavra": "painel:",
+      "de": 2.095,
+      "ate": 2.559
+    },
+    {
+      "palavra": "tudo",
+      "de": 2.675,
+      "ate": 2.931
+    },
+    {
+      "palavra": "que",
+      "de": 2.977,
+      "ate": 3.059
+    },
+    {
+      "palavra": "chegou",
+      "de": 3.105,
+      "ate": 3.36
+    },
+    {
+      "palavra": "de",
+      "de": 3.407,
+      "ate": 3.465
+    },
+    {
+      "palavra": "noite,",
+      "de": 3.511,
+      "ate": 3.941
+    },
+    {
+      "palavra": "respondido,",
+      "de": 4.045,
+      "ate": 4.8
+    },
+    {
+      "palavra": "marcado",
+      "de": 4.939,
+      "ate": 5.543
+    },
+    {
+      "palavra": "e",
+      "de": 5.648,
+      "ate": 5.764
+    },
+    {
+      "palavra": "organizado.",
+      "de": 5.822,
+      "ate": 6.565
+    }
+  ],
+  "09-cta.wav": [
+    {
+      "palavra": "Quer",
+      "de": 0.058,
+      "ate": 0.22
+    },
+    {
+      "palavra": "isso",
+      "de": 0.267,
+      "ate": 0.406
+    },
+    {
+      "palavra": "funcionando",
+      "de": 0.453,
+      "ate": 0.929
+    },
+    {
+      "palavra": "na",
+      "de": 0.975,
+      "ate": 1.045
+    },
+    {
+      "palavra": "sua",
+      "de": 1.091,
+      "ate": 1.242
+    },
+    {
+      "palavra": "clínica?",
+      "de": 1.289,
+      "ate": 1.73
+    },
+    {
+      "palavra": "Diagnóstico",
+      "de": 1.916,
+      "ate": 2.508
+    },
+    {
+      "palavra": "gratuito",
+      "de": 2.554,
+      "ate": 3.053
+    },
+    {
+      "palavra": "no",
+      "de": 3.1,
+      "ate": 3.158
+    },
+    {
+      "palavra": "WhatsApp.",
+      "de": 3.193,
+      "ate": 3.994
+    }
+  ]
+}
